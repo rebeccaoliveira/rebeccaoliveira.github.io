@@ -1,13 +1,28 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import styled from 'styled-components'
+import HeaderHome from '../components/HeaderHome';
+import { Container, Row, Col } from 'reactstrap';
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
 
-export default IndexPage
+
+const Index = () => (
+  <Container>
+    <HeaderHome id ="header"/>
+  </Container>  
+
+);
+
+export default Index;
+
+// const IndexPage = () => (
+//   <div>
+//     <Header />
+//     <Header2 />
+//     ola
+//     <Block />
+//     <Block />
+//     <Product>Produto</Product>
+//     <Product backgroundColor={'blue'}>Produto 2</Product>
+//     <img src={img1_2} />
+//   </div>
+// )
