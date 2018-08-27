@@ -7,7 +7,7 @@ import logoReact from "../images/logo-react-heart-blue.png";
 
 const TextTitle = styled.h1`
   font-family: 'proxima-nova', futura-pt space;
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(0, 0, 0);
   line-height: 2 px;
   display: inline;
@@ -15,14 +15,23 @@ const TextTitle = styled.h1`
 const TextStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 20px;
-  color: #adadad;
+  color: #867e7e;
   display: block;
 `
 const MenuStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
-  font-size: 20px;
-  color: #adadad;
+  font-size: 18px;
+  color: #867e7e;
   display: inline;
+  text-align: center;
+`
+const Anchor = styled.a`
+  color: #867e7e;
+
+  &:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
 `
 
 
@@ -43,11 +52,20 @@ const HeaderHome = (props) => {
 
       <Col xs="6">
         <Row>
-          <Col xs="12">
-            <MenuStyle><a href="#">Home</a></MenuStyle>
-            <MenuStyle><a href="#">Home</a></MenuStyle>
-            <MenuStyle><a href="#">Home</a></MenuStyle>
+          <Col xs="2" className="text-center" />
+          <Col xs="2" className="text-center">
+            <MenuStyle> <Anchor href="#">Home</Anchor></MenuStyle>
           </Col>
+          <Col xs="2" className="text-center">
+            <MenuStyle> <Anchor href="#">About</Anchor></MenuStyle>
+          </Col>
+          <Col xs="2" className="text-center">
+            <MenuStyle> <Anchor href="#">Projects</Anchor></MenuStyle>
+          </Col>
+          <Col xs="2" className="text-center">
+            <MenuStyle> <Anchor href="#">My Blog</Anchor></MenuStyle>
+          </Col>
+          <Col xs="2" className="text-center" />
         </Row>
       </Col>
     </Row>

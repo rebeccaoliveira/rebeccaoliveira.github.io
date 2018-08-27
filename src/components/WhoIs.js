@@ -13,12 +13,12 @@ const FirstDiv = styled.div`
 
 const Image = styled.img`
   border-radius: 50%;
-  border: 2px solid rgb(89, 176, 245);
+  border: 2px solid #867e7e;
   display: block;
   width: 50%;
 `
 const NameStyle = styled.p`
-  font-family: 'Space Mono', monospace;
+  font-family: 'proxima-nova', futura-pt space;
   font-size: 25px;
   font-weight: 500;
   display: block;
@@ -31,7 +31,7 @@ const NameStyle = styled.p`
 `
 
 const TitleStyle = styled.p`
-  font-family: 'Space Mono', monospace;
+  font-family: 'proxima-nova', futura-pt space;
   font-size: 20px;
   font-weight: 500;
   display: block;
@@ -44,7 +44,7 @@ const TitleStyle = styled.p`
 `
 
 const NormalText = styled.p`
-  font-family: 'Space Mono', monospace;
+  font-family: 'proxima-nova', futura-pt space;
   font-size: 18px;
   font-weight: 500;
   display: block;
@@ -73,7 +73,7 @@ const WhoIs = () =>(
           <Row>
             <Col xs="4"/>
             <Col xs="4" style={{marginTop: '30px'}}>
-              <NameStyle>Rebecca Oliveira </NameStyle>
+              <NameStyle>It&#39;s Me 🌟 </NameStyle>
               <TitleStyle style={{marginTop: '30px'}} >Frontend Developer</TitleStyle>
               <NormalText> Learning how to code, every day! </NormalText>
             </Col>
