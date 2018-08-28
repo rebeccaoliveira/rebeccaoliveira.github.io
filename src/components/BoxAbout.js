@@ -80,7 +80,7 @@ const BoxAbout = () => (
 
                 <Row>
                 <NormalText>
-                After a sabbatical period, I decided that I would like to use the internet to my favor, to learn ReactJS and work as a web developer!
+                After a sabbatical period, I decided that I would like to use the internet in my favor, to learn ReactJS and work as a web developer!
                 My website title is "A (non) Tech Girl" because I wanna show that&#39;s everyone can do a shift in their career and learn something new!
                 If you want to know more about my professional life, welcome <a href="#">here</a>.
                 </NormalText>

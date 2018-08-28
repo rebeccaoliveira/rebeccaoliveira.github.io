@@ -32,7 +32,6 @@ const Anchor = styled.a`
     color: rgb(0, 0, 0);
     text-decoration: underline;
   }
-
 `
 
 

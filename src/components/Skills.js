@@ -79,6 +79,6 @@ const DivIcon = styled.div`
       </Container>
       <hr />
     </div>
-  )
+  );
 
 export default Skills;

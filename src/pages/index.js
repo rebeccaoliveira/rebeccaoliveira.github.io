@@ -7,6 +7,7 @@ import WhoIs from '../components/WhoIs';
 import BoxAbout from '../components/BoxAbout';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+import Talk from '../components/Talk';
 
 
 const Index = () => (
@@ -16,6 +17,7 @@ const Index = () => (
     <BoxAbout id="about" />
     <Skills id="skills" />
     <Projects id="projects" />
+    <Talk id="talk" />
   </Container>
 );
 
