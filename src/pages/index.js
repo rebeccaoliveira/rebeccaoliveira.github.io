@@ -1,17 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
-import HeaderHome from '../components/HeaderHome';
 import { Container, Row, Col } from 'reactstrap';
-import WhoIs from '../components/WhoIs';
 
+import HeaderHome from '../components/HeaderHome';
+import WhoIs from '../components/WhoIs';
+import BoxAbout from '../components/BoxAbout';
+import Skills from '../components/Skills';
+import Projects from '../components/Projects';
 
 
 const Index = () => (
   <Container>
     <HeaderHome id ="header" />
-    <WhoIs id="whos" />
+    <WhoIs id="whois" />
+    <BoxAbout id="about" />
+    <Skills id="skills" />
+    <Projects id="projects" />
   </Container>
-
 );
 
 export default Index;

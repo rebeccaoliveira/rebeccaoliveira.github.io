@@ -6,21 +6,15 @@ import Instagram from "../images/instagram-logo.png";
 import Twitter from "../images/twitter-logo-button.png";
 import Github from "../images/github-logo.png";
 
-const FirstDiv = styled.div`
-  min-height: 400px;
-  width:100%;
-`;
-
 const Image = styled.img`
   border-radius: 50%;
   border: 2px solid #867e7e;
   display: block;
   width: 50%;
 `
-const NameStyle = styled.p`
+const NameStyle = styled.h1`
   font-family: 'proxima-nova', futura-pt space;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 30px;
   display: block;
   color: rgb(0, 0, 0);
   line-height: 10px;
@@ -30,10 +24,9 @@ const NameStyle = styled.p`
   padding: 0px 0px 0px 0px;
 `
 
-const TitleStyle = styled.p`
+const TitleStyle = styled.h2`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 20px;
-  font-weight: 500;
   display: block;
   color: rgb(0, 0, 0);
   line-height: 10px;
@@ -46,7 +39,6 @@ const TitleStyle = styled.p`
 const NormalText = styled.p`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 18px;
-  font-weight: 500;
   display: block;
   font-color: rgb(0, 0, 0);
   line-height: 10 px;
@@ -59,7 +51,7 @@ const Icon = styled.i`
   margin: 15px;
 `
 const WhoIs = () =>(
-  <FirstDiv>
+  <div>
     <Container>
       <Row>
         <Col xs="12">
@@ -74,15 +66,17 @@ const WhoIs = () =>(
             <Col xs="4"/>
             <Col xs="4" style={{marginTop: '30px'}}>
               <NameStyle>It&#39;s Me 🌟 </NameStyle>
-              <TitleStyle style={{marginTop: '30px'}} >Frontend Developer</TitleStyle>
+              <TitleStyle style={{marginTop: '30px'}} > Self-taught Frontend Developer</TitleStyle>
               <NormalText> Learning how to code, every day! </NormalText>
             </Col>
             <Col xs="4"/>
           </Row>
         </Col>
       </Row>
+
     </Container>
-  </FirstDiv>
+    <hr />
+  </div>
 )
 
 export default WhoIs;

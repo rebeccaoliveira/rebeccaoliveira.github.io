@@ -28,10 +28,11 @@ const MenuStyle = styled.p`
 const Anchor = styled.a`
   color: #867e7e;
 
-  &:hover {
+  &:hover, active {
     color: rgb(0, 0, 0);
     text-decoration: underline;
   }
+
 `
 
 
