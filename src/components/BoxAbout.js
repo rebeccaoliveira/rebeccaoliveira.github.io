@@ -32,7 +32,7 @@ const TitleStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 20px;
   display: block;
-  color: rgb(0, 0, 0);
+  color: #867e7e;
   line-height: 10px;
   text-align: center;
   vertical-align: baseline;

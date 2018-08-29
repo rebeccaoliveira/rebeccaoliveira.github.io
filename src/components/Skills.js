@@ -34,7 +34,7 @@ const DivIcon = styled.div`
   const Skills = () => (
     <div>
       <Container>
-        <TextStyle>Skills: Programming Languages & Tools</TextStyle>
+        <TextStyle id="tools">Programming Languages & Tools</TextStyle>
         <Row>
           <Col xs="1" />
           <Col xs="10">

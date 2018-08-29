@@ -6,9 +6,9 @@ import HeaderHome from '../components/HeaderHome';
 import WhoIs from '../components/WhoIs';
 import BoxAbout from '../components/BoxAbout';
 import Skills from '../components/Skills';
-import Projects from '../components/Projects';
+import ProjectsHome from '../components/ProjectsHome';
 import Talk from '../components/Talk';
-
+import Footer from '../components/Footer';
 
 const Index = () => (
   <Container>
@@ -16,8 +16,10 @@ const Index = () => (
     <WhoIs id="whois" />
     <BoxAbout id="about" />
     <Skills id="skills" />
-    <Projects id="projects" />
+    <ProjectsHome id="projectshome" />
     <Talk id="talk" />
+    <Footer id="footer" />
+
   </Container>
 );
 

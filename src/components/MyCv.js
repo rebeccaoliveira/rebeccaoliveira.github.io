@@ -9,14 +9,15 @@ import { injectGlobal } from 'styled-components';
 injectGlobal`
   .vertical-timeline-element-content {
     color: black;
+    font-family: 'proxima-nova', futura-pt space;
   }
 
   .vertical-timeline-element--work .vertical-timeline-element-content {
-    border-top: 3px solid rgb(89, 176, 245);
+    border-top: 3px solid #61dafb;
   }
 
   .vertical-timeline-element--education .vertical-timeline-element-content {
-    border-top: 3px solid #e91e63;
+    border-top: 3px solid #61dafb;
   }
 
   @media only screen and (min-width: 1170px) {
@@ -35,16 +36,15 @@ injectGlobal`
 `;
 
 const NameStyle = styled.p`
-  font-family: 'Space Mono', monospace;
+  font-family: 'proxima-nova', futura-pt space;
   font-size: 30px;
-  font-weight: 500;
   display: block;
   color: rgb(0, 0, 0);
   line-height: 10px;
   text-align: center;
   vertical-align: baseline;
   word-wrap: break-word;
-  padding: 0px 0px 0px 0px;
+  padding: 50px 0px 00px 0px;
 `
 
 const Timeline = () =>(
@@ -54,18 +54,23 @@ const Timeline = () =>(
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">Started to Study React JS</h3>
           <p>
-            Using the little knowledge that I aquire in 2017, I decided to back in code, learning React JS by myself.
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2017"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">First Contact with Code</h3>
@@ -77,7 +82,7 @@ const Timeline = () =>(
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2016 - 2017"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Business Manager at Sparkling Biz</h3>
@@ -89,7 +94,7 @@ const Timeline = () =>(
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2013 - 2016"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Business Manager at Zertico Cloud Solutions</h3>
@@ -101,7 +106,7 @@ const Timeline = () =>(
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2012 - 2013"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">MBA - Master in Business Management</h3>
@@ -112,7 +117,7 @@ const Timeline = () =>(
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2013"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Working with Business Management</h3>
@@ -123,7 +128,7 @@ const Timeline = () =>(
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2006 - 2010"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">Bachelor of Foreign Trade</h3>
@@ -132,6 +137,7 @@ const Timeline = () =>(
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      <hr />
   </div>
   );
 

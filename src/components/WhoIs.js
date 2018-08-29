@@ -40,7 +40,7 @@ const NormalText = styled.p`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 18px;
   display: block;
-  font-color: rgb(0, 0, 0);
+  color: #867e7e;
   line-height: 10 px;
   text-align: center;
   vertical-align: baseline;

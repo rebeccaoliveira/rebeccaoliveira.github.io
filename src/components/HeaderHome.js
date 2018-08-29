@@ -29,7 +29,7 @@ const Anchor = styled.a`
   color: #867e7e;
 
   &:hover, active {
-    color: rgb(0, 0, 0);
+    color: #61dbfb;
     text-decoration: underline;
   }
 `
@@ -40,10 +40,10 @@ const HeaderHome = (props) => {
     <Row>
       <Col xs="6">
         <Row>
-          <Col xs="2">
-            <img width="70" height="70" src={logoReact} alt="logoReact" />
+          <Col xs="3">
+            <img width="70" height="70" src={logoReact} alt="logoReact" className="mx-auto d-block" />
           </Col>
-          <Col xs="10">
+          <Col xs="9">
             <TextTitle> Rebecca Oliveira </TextTitle>
             <TextStyle>A (non) Tech Girl on ReactJS</TextStyle>
           </Col>
@@ -51,13 +51,13 @@ const HeaderHome = (props) => {
       </Col>
 
       <Col xs="6">
-        <Row>
+        <Row className="align-items-center">
           <Col xs="2" className="text-center" />
           <Col xs="2" className="text-center">
             <MenuStyle> <Anchor href="#">Home</Anchor></MenuStyle>
           </Col>
           <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="#">About</Anchor></MenuStyle>
+            <MenuStyle> <Anchor href="#">Journey</Anchor></MenuStyle>
           </Col>
           <Col xs="2" className="text-center">
             <MenuStyle> <Anchor href="#">Projects</Anchor></MenuStyle>

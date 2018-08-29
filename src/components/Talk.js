@@ -7,6 +7,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope'
+import { faMedium } from '@fortawesome/free-brands-svg-icons/faMedium'
 
 
 const NormalText = styled.p`
@@ -26,34 +28,32 @@ const Anchor = styled.a`
 
   &:hover, active {
     color: black;
-    text-decoration: underline;
   }
 `
-
 
 const Talk = () => (
   <div>
     <Container>
-      <NormalText>Skills: Programming Languages & Tools</NormalText>
-      <Row>
-        <Col xs="12">
-          <Nav>
-            <Anchor href="#">
-              <FontAwesomeIcon className="mx-auto d-block" icon={faGithub} size="3x" color="grey" />
+      <NormalText>Let&#39;s Talk?! Stay connected with me!</NormalText>
+      <div className="d-flex justify-content-around">
+        <Row className="justify-content-around">
+          <Col xs="12" className="text-center">
+            <Anchor href="mailto:rebecca.d.oliveira@gmail.com">
+              <FontAwesomeIcon className="mx-auto d-inline" icon={faEnvelope} size="3x" color="grey" />
             </Anchor>
-            <Anchor href="#">
-              <FontAwesomeIcon className="mx-auto d-block" icon={faGithub} size="3x" color="grey" />
+            <Anchor href="https://github.com/rebyoliveira">
+              <FontAwesomeIcon className="mx-auto d-inline" icon={faGithub} size="3x" color="grey" />
             </Anchor>
-            <Anchor href="#">
-              <FontAwesomeIcon className="mx-auto d-block" icon={faGithub} size="3x" color="grey" />
+            <Anchor href="https://twitter.com/rebyoliveira">
+              <FontAwesomeIcon className="mx-auto d-inline" icon={faTwitter} size="3x" color="grey" />
             </Anchor>
-            <Anchor href="#">
-              <FontAwesomeIcon className="mx-auto d-block" icon={faGithub} size="3x" color="grey" />
+            <Anchor href="https://medium.com/@RebyOliveira">
+              <FontAwesomeIcon className="mx-auto d-inline" icon={faMedium} size="3x" color="grey" />
             </Anchor>
-          </Nav>
-        </Col>
-        <Col xs="1" />
-      </Row>
+          </Col>
+          <Col xs="1" />
+        </Row>
+      </div>
     </Container>
     <hr />
   </div>

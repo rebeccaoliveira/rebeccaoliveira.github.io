@@ -34,11 +34,11 @@ const TextStyle = styled.h1`
   padding: 0px 0px 50px 0px;
 `
 
-const Projects = () => (
+const ProjectsHome = () => (
   <div>
     <Jumbotron fluid>
       <Container>
-        <TextStyle>Portfolio: Projects</TextStyle>
+        <TextStyle>Personal Projects</TextStyle>
         <Row>
           <Col xs="1" />
           <Col xs="10">
@@ -97,4 +97,4 @@ const Projects = () => (
 );
 
 
-export default Projects;
+export default ProjectsHome;
