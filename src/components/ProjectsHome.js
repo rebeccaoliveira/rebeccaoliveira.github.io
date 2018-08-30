@@ -33,55 +33,67 @@ const TextStyle = styled.h1`
   word-wrap: break-word;
   padding: 0px 0px 50px 0px;
 `
+const Anchor = styled.a`
+  color: black;
+
+  &:hover, active {
+    color: #867e7e;
+  }
+`
+const StyledJumbotron = styled(Jumbotron)`
+  background-color: #c0c0c01a;
+`
 
 const ProjectsHome = () => (
   <div>
-    <Jumbotron fluid>
+    <StyledJumbotron fluid>
       <Container>
         <TextStyle>Personal Projects</TextStyle>
         <Row>
           <Col xs="1" />
           <Col xs="10">
-
             <Row>
-
               <Col xs="4">
                 <ProjectPost>
                   <div>
                     <Card>
-                      <CardImg top width="100%" src={NyanCat} alt="NyanCat"/>
-                      <CardBody>
-                        <CardTitle> <BodyTitle> Project #01 </BodyTitle> </CardTitle>
-                        <CardSubtitle> <BodyTitle> Nyan Cat </BodyTitle> </CardSubtitle>
-                      </CardBody>
+                      <Anchor href="http://localhost:8000/projects">
+                        <CardImg top width="100%" src={NyanCat} alt="NyanCat"/>
+                        <CardBody>
+                          <CardTitle> <BodyTitle> Project #01 </BodyTitle> </CardTitle>
+                          <CardSubtitle> <BodyTitle>Nyan Cat </BodyTitle> </CardSubtitle>
+                        </CardBody>
+                      </Anchor>
                     </Card>
                   </div>
                 </ProjectPost>
               </Col>
-
               <Col xs="4">
                 <ProjectPost>
                   <div>
                     <Card>
-                      <CardImg top width="100%" src={NyanCatMexico} alt="NyanCatMexico"/>
-                      <CardBody>
-                      <CardTitle> <BodyTitle> Project #02 </BodyTitle> </CardTitle>
-                      <CardSubtitle> <BodyTitle> Nyan Cat Mexico </BodyTitle> </CardSubtitle>
-                      </CardBody>
+                      <Anchor href="http://localhost:8000/projects">
+                        <CardImg top width="100%" src={NyanCatMexico} alt="NyanCatMexico"/>
+                        <CardBody>
+                        <CardTitle> <BodyTitle> Project #02 </BodyTitle> </CardTitle>
+                        <CardSubtitle> <BodyTitle> Nyan Cat Mexico </BodyTitle> </CardSubtitle>
+                        </CardBody>
+                      </Anchor>
                     </Card>
                   </div>
                 </ProjectPost>
               </Col>
-
                 <Col xs="4">
                   <ProjectPost>
                     <div>
                       <Card>
-                        <CardImg top width="100%" src={NyanCatNinja} alt="NyanCatNinja"/>
-                        <CardBody>
-                        <CardTitle> <BodyTitle> Project #03 </BodyTitle> </CardTitle>
-                        <CardSubtitle> <BodyTitle> Nyan Cat Ninja </BodyTitle> </CardSubtitle>
-                        </CardBody>
+                        <Anchor href="http://localhost:8000/projects">
+                          <CardImg top width="100%" src={NyanCatNinja} alt="NyanCatNinja"/>
+                          <CardBody>
+                          <CardTitle> <BodyTitle> Project #03 </BodyTitle> </CardTitle>
+                          <CardSubtitle> <BodyTitle> Nyan Cat Ninja </BodyTitle> </CardSubtitle>
+                          </CardBody>
+                        </Anchor>
                       </Card>
                     </div>
                   </ProjectPost>
@@ -91,7 +103,7 @@ const ProjectsHome = () => (
           <Col xs="1" />
         </Row>
       </Container>
-    </Jumbotron>
+    </StyledJumbotron>
     <hr />
   </div>
 );

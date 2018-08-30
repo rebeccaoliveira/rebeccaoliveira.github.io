@@ -29,7 +29,7 @@ const Anchor = styled.a`
   color: #867e7e;
 
   &:hover, active {
-    color: #61dbfb;
+    color: black;
     text-decoration: underline;
   }
 `
@@ -54,18 +54,20 @@ const HeaderHome = (props) => {
         <Row className="align-items-center">
           <Col xs="2" className="text-center" />
           <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="#">Home</Anchor></MenuStyle>
+            <MenuStyle> <Anchor href="http://localhost:8000"> Home </Anchor></MenuStyle>
           </Col>
           <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="#">Journey</Anchor></MenuStyle>
+            <MenuStyle> <Anchor href="http://localhost:8000/journey"> Journey </Anchor></MenuStyle>
           </Col>
           <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="#">Projects</Anchor></MenuStyle>
+            <MenuStyle> <Anchor href="http://localhost:8000/projects"> Projects </Anchor></MenuStyle>
           </Col>
           <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="#">My Blog</Anchor></MenuStyle>
+            <MenuStyle> <Anchor href="http://localhost:8000/contact"> Contact </Anchor></MenuStyle>
           </Col>
-          <Col xs="2" className="text-center" />
+          <Col xs="2" className="text-center">
+            <MenuStyle> <Anchor href="https://medium.com/@RebyOliveira">My Blog</Anchor></MenuStyle>
+          </Col>
         </Row>
       </Col>
     </Row>

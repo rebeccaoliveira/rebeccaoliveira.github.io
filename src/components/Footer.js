@@ -25,7 +25,7 @@ const Anchor = styled.a`
   color: black;
 
   &:hover, active {
-    color: #61dbfb;
+    color: #867e7e;
     text-decoration: underline;
   }
 `
@@ -36,10 +36,10 @@ const Footer = () => (
     <Row>
       <Col xs={{ size: 8, offset: 2 }}>
         <Row className="justify-content-around">
-          <Col xs="2" className="text-center"><Anchor href="#"> Home  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="#"> Jouney  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="#"> Projects  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="#"> Contact  </Anchor></Col>
+          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000"> Home  </Anchor></Col>
+          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/journey"> Jouney  </Anchor></Col>
+          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/projects"> Projects  </Anchor></Col>
+          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/contact"> Contact  </Anchor></Col>
           <Col xs="2" className="text-center"><Anchor href="https://medium.com/@RebyOliveira"> Blog </Anchor></Col>
         </Row>
       </Col>

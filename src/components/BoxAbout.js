@@ -2,20 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import { Navbar as ReactNavbar } from 'reactstrap';
-// import logoReact from "../images/logo-react-heart.png";
-// import HeaderAbout from '../components/headerabout';
-// import gravatarRebecca from "../images/gravatar.jpg";
-// import diamante from "../images/diamante.jpg";
-// import yogaflow from "../images/yogaflow.jpg";
-// import travel from "../images/travel.jpg";
-// import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
-// import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-
-// const DivStyle = styled.div`
-//   background-color: #efefef;
-//   padding: 30px 0px 0px 0px;
-// `
 
 const NameStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
@@ -50,9 +36,13 @@ const NormalText = styled.p`
   word-wrap: break-word;
 `
 
+const StyledJumbotron = styled(Jumbotron)`
+  background-color: #c0c0c01a;
+`
+
 const BoxAbout = () => (
   <div>
-    <Jumbotron fluid>
+    <StyledJumbotron fluid>
       <Container>
         <Row>
           <Col xs="12">
@@ -74,7 +64,7 @@ const BoxAbout = () => (
 
                 <Row>
                 <NormalText>
-                My degree is in Business with International Trade, but when I finished an MBA, I had the opportunity to work in an IT company, where... hummm... I FOUND MY PLACE! Yes, I really love technology!
+                My degree is in Business with International Trade, but I had the opportunity to work in an IT company, where... hummm... I FOUND MY PLACE! Yes, I really love technology!
                 </NormalText>
                 </Row>
 
@@ -82,7 +72,7 @@ const BoxAbout = () => (
                 <NormalText>
                 After a sabbatical period, I decided that I would like to use the internet in my favor, to learn ReactJS and work as a web developer!
                 My website title is "A (non) Tech Girl" because I wanna show that&#39;s everyone can do a shift in their career and learn something new!
-                If you want to know more about my professional life, welcome <a href="#">here</a>.
+                If you want to know more about my professional life, welcome <a href="http://localhost:8000/journey">here</a>.
                 </NormalText>
                 </Row>
 
@@ -98,7 +88,7 @@ const BoxAbout = () => (
           </Col>
         </Row>
       </Container>
-    </Jumbotron>
+    </StyledJumbotron>
     <hr />
   </div>
 );

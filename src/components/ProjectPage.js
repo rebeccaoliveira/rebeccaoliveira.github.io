@@ -1,9 +1,12 @@
 import React from 'react';
 import styled from 'styled-components'
-import { Container, Row, Col, Jumbotron } from 'reactstrap';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle } from 'reactstrap';
-import { injectGlobal } from 'styled-components';
+import { Container, Row, Col } from 'reactstrap';
+
+import NyanCat from "../images/nyan-cat.jpg";
+import NyanCatMexico from "../images/nyan-cat-mexico.jpg";
+import NyanCatNinja from "../images/nyan-cat-ninja.jpg";
+
+
 
 const SniRoot = styled.figure`
   background-color: #fff;
@@ -28,7 +31,7 @@ const SniRoot = styled.figure`
   }
 
   &:after {
-    background-color: #359ad8;
+    background-color: #867e7e;
     height: 150%;
     bottom: -145%;
     content: '';
@@ -62,11 +65,13 @@ const SniTitle = styled.h3`
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
+  font-family: 'proxima-nova', futura-pt space;
 `
 
 const SniSpan = styled.span`
   display: block;
-  font-weight: 700;
+  font-weight: 700
+  font-family: 'proxima-nova', futura-pt space;
 `
 
 const SniA = styled.a`
@@ -113,19 +118,31 @@ const SniFigcap = styled.figcaption`
   }
 `
 
+const TextStyle = styled.h1`
+  font-family: 'proxima-nova', futura-pt space;
+  font-size: 30px;
+  display: block;
+  color: rgb(0, 0, 0);
+  line-height: 10px;
+  text-align: center;
+  vertical-align: baseline;
+  word-wrap: break-word;
+  padding: 30px 0px 30px 0px;
+`
+
 const ProjectPage = () => (
   <Container>
     <Row>
       <Col xs="12">
-        <p>My Projects</p>
+        <TextStyle>My Projects</TextStyle>
       </Col>
     </Row>
     <Row>
       <Col xs="4">
         <SniRoot>
-          <SniImage src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample104.jpg" alt="sample104" />
+          <SniImage width="100%" src={NyanCat} alt="NyanCat" />
           <SniFigcap>
-            <SniTitle>Carnegie <SniSpan>Mondover</SniSpan></SniTitle>
+            <SniTitle>Nyan <SniSpan>Cat</SniSpan></SniTitle>
           </SniFigcap>
           <SniA href="#"></SniA>
         </SniRoot>
@@ -133,9 +150,9 @@ const ProjectPage = () => (
 
       <Col xs="4">
         <SniRoot>
-          <SniImage src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample104.jpg" alt="sample104" />
+          <SniImage width="100%" src={NyanCatMexico} alt="NyanCatMexico" />
           <SniFigcap>
-            <SniTitle>Carnegie <SniSpan>Mondover</SniSpan></SniTitle>
+            <SniTitle>Nyan Cat <SniSpan>Mexico</SniSpan></SniTitle>
           </SniFigcap>
           <SniA href="#"></SniA>
         </SniRoot>
@@ -143,9 +160,9 @@ const ProjectPage = () => (
 
       <Col xs="4">
         <SniRoot>
-          <SniImage src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample104.jpg" alt="sample104" />
+          <SniImage width="100%" src={NyanCatNinja} alt="NyanCatNinja" />
           <SniFigcap>
-            <SniTitle>Carnegie <SniSpan>Mondover</SniSpan></SniTitle>
+            <SniTitle>Nyan Cat <SniSpan>Ninja</SniSpan></SniTitle>
           </SniFigcap>
           <SniA href="#"></SniA>
         </SniRoot>

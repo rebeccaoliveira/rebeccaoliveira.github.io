@@ -44,7 +44,7 @@ const NameStyle = styled.p`
   text-align: center;
   vertical-align: baseline;
   word-wrap: break-word;
-  padding: 50px 0px 00px 0px;
+  padding: 30px 0px 0px 0px;
 `
 
 const Timeline = () =>(
@@ -57,14 +57,11 @@ const Timeline = () =>(
           iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Started to Study React JS</h3>
+          <h3 className="vertical-timeline-element-title">Meeting React JS</h3>
           <p>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+          In 2018 I was researching for new fields of frontend development, where I found a lot of information about ReactJS.
+          I read all the documentation of this library and did a Code Academy course, since then,
+          I&#39;ve been studying and training to be a developer focusing on this technology.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -75,20 +72,26 @@ const Timeline = () =>(
         >
           <h3 className="vertical-timeline-element-title">First Contact with Code</h3>
           <p>
-          I am a creative person and I always like to create something using my mind together with my heart. After a few weeks looking for different programming languages, I felt that Frotend was my place. So I started to study through Code Academy, Free Code Camp and Udemy things about HTML, CSS, and JavaScript.
-
+          I am a creative person, and I always like to create something using my mind together with my heart. After a sabbatical period,
+          I started to look for different programming languages, and I felt that Frontend was my place.
+          So in the middle of 2017, I began to study through Code Academy,
+          Free Code Camp, Udemy and IT Blogs things about HTML, CSS, and JavaScript.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2016 - 2017"
+          date="2017"
           iconStyle={{ background: '#867e7e', color: '#fff' }}
-          icon={<WorkIcon />}
+          icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Business Manager at Sparkling Biz</h3>
+          <h3 className="vertical-timeline-element-title">Master of Science in Business</h3>
           <p>
-            Working in a tech company, I was responsible for all administrative and finance area.
-            But, for being in the technological environment, grown up inside of me the interest to change my career and become a web developer.
+          I started a Master of Science in Business Manager,
+          but for being a long time in a technological environment,
+          was growing up inside of me the interest to change my career and become a web developer.
+          </p>
+          <p>
+          Obs.: I quit off this project to move to the magic code world!
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -97,10 +100,18 @@ const Timeline = () =>(
           iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Business Manager at Zertico Cloud Solutions</h3>
+          <h3 className="vertical-timeline-element-title">Business and Project Manager at Zertico Cloud Solutions</h3>
           <p>
-            This was my first job in a tech company, where I have opened my eyes to this world of creating amazing things using codes.
-            I worked in the business area, but I was learning with homeopathic doses, things about the flux of software development, participating in workshops and business negotiation.
+          This was my first job in a tech company,
+          where I have opened my eyes to this world of creating fantastic things using codes.
+          I worked in the business area, but I have learned things about the flux of software development,
+          participating in IT conferences and business negotiation.
+          </p>
+          <p>
+          Skills Developed: Software project manager, business manager, UI / UX.
+          </p>
+          <p>
+          Tools used: Github, Atlassian, Asana.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -116,13 +127,20 @@ const Timeline = () =>(
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2013"
+          date="2007 - 2013"
           iconStyle={{ background: '#867e7e', color: '#fff' }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Working with Business Management</h3>
           <p>
-            During this period I had no idea about tech companies, working just with business and finance areas.
+          During this period I had no idea about tech companies, working just with business and finance areas.
+          I started to work after my first year of University.
+          </p>
+          <p>
+          Skills Developed: Project manager, purchase, and negotiation, financial and accountability.
+          </p>
+          <p>
+          Tools used: MS Office, SAP.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
