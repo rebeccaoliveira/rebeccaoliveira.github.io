@@ -40,7 +40,7 @@ const Footer = () => (
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/journey"> Jouney  </Anchor></Col>
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/projects"> Projects  </Anchor></Col>
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/contact"> Contact  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="https://medium.com/@RebyOliveira"> Blog </Anchor></Col>
+          <Col xs="2" className="text-center"><Anchor href="https://medium.com/@RebyOliveira" target="_blank"> Blog </Anchor></Col>
         </Row>
       </Col>
       <Col xs="2"/>

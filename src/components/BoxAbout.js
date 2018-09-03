@@ -37,8 +37,9 @@ const NormalText = styled.p`
 `
 
 const StyledJumbotron = styled(Jumbotron)`
-  background-color: #c0c0c01a;
+  background-color: #c0c0c057;
 `
+
 
 const BoxAbout = () => (
   <div>

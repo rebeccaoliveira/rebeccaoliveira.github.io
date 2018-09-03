@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col } from 'reactstrap';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { Nav, NavItem, NavLink, NavbarBrand } from 'reactstrap';
 import logoReact from "../images/logo-react-heart-blue.png";
+import NavbarSite from '../components/NavbarSite';
 
 
 const TextTitle = styled.h1`
@@ -38,38 +39,26 @@ const Anchor = styled.a`
 const HeaderHome = (props) => {
   return (
     <Row>
-      <Col xs="6">
-        <Row>
-          <Col xs="3">
-            <img width="70" height="70" src={logoReact} alt="logoReact" className="mx-auto d-block" />
+
+      <Col xs="6" className="col align-self-center">
+        <Row className="row justify-content-start">
+          <Col xs="3" className="col align-self-center">
+            <a href="http://localhost:8000"><img width="70" height="70" src={logoReact} alt="logoReact" className="float-right" /> </a>
           </Col>
-          <Col xs="9">
+          <Col xs="9" className="col align-self-center">
             <TextTitle> Rebecca Oliveira </TextTitle>
             <TextStyle>A (non) Tech Girl on ReactJS</TextStyle>
           </Col>
         </Row>
       </Col>
 
-      <Col xs="6">
-        <Row className="align-items-center">
-          <Col xs="2" className="text-center" />
-          <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="http://localhost:8000"> Home </Anchor></MenuStyle>
-          </Col>
-          <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="http://localhost:8000/journey"> Journey </Anchor></MenuStyle>
-          </Col>
-          <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="http://localhost:8000/projects"> Projects </Anchor></MenuStyle>
-          </Col>
-          <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="http://localhost:8000/contact"> Contact </Anchor></MenuStyle>
-          </Col>
-          <Col xs="2" className="text-center">
-            <MenuStyle> <Anchor href="https://medium.com/@RebyOliveira">My Blog</Anchor></MenuStyle>
-          </Col>
-        </Row>
-      </Col>
+
+        <Col xs="6" className="col align-self-center">
+          <Row className="row justify-content-end" >
+            <NavbarSite />
+          </Row>
+        </Col>
+
     </Row>
   );
 };

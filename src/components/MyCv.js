@@ -75,7 +75,7 @@ const Timeline = () =>(
           I am a creative person, and I always like to create something using my mind together with my heart. After a sabbatical period,
           I started to look for different programming languages, and I felt that Frontend was my place.
           So in the middle of 2017, I began to study through Code Academy,
-          Free Code Camp, Udemy and IT Blogs things about HTML, CSS, and JavaScript.
+          Free Code Camp, Udemy and Tech Blogs things about HTML, CSS, and JavaScript.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -91,7 +91,7 @@ const Timeline = () =>(
           was growing up inside of me the interest to change my career and become a web developer.
           </p>
           <p>
-          Obs.: I quit off this project to move to the magic code world!
+          Obs.: I quit off this project to move to the magical code world!
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -108,10 +108,10 @@ const Timeline = () =>(
           participating in IT conferences and business negotiation.
           </p>
           <p>
-          Skills Developed: Software project manager, business manager, UI / UX.
+          Skills Developed: Software project manager, scrum / agile, business manager, UI / UX.
           </p>
           <p>
-          Tools used: Github, Atlassian, Asana.
+          Tools used: Github, Atlassian /Jira / Confluence, Asana.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -137,7 +137,7 @@ const Timeline = () =>(
           I started to work after my first year of University.
           </p>
           <p>
-          Skills Developed: Project manager, purchase, and negotiation, financial and accountability.
+          Skills Developed: Project manager, purchase and negotiation, financial and accountability.
           </p>
           <p>
           Tools used: MS Office, SAP.

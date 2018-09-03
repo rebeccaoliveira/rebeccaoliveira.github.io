@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Row, Col, Nav } from 'reactstrap';
+import { Container, Row, Col, Nav, Jumbotron } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab, fas } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -20,7 +20,7 @@ const NormalText = styled.p`
   text-align: center;
   vertical-align: baseline;
   word-wrap: break-word;
-  padding: 70px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
 `
 
 const Anchor = styled.a`
@@ -30,9 +30,13 @@ const Anchor = styled.a`
     color: black;
   }
 `
+const StyledJumbotron = styled(Jumbotron)`
+  background-color: white;
+`
 
 const Talk = () => (
-  <div>
+<div>
+  <StyledJumbotron fluid>
     <Container>
       <NormalText>Let&#39;s Talk?! Stay connected with me!</NormalText>
       <div className="d-flex justify-content-around">
@@ -64,8 +68,9 @@ const Talk = () => (
         </Row>
       </div>
     </Container>
-    <hr />
-  </div>
+  </StyledJumbotron>
+  <hr />
+</div>
 );
 
 

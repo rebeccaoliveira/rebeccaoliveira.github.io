@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'reactstrap';
+import MediaQuery from 'react-responsive';
 
 import HeaderHome from '../components/HeaderHome';
 import WhoIs from '../components/WhoIs';
@@ -10,16 +11,16 @@ import ProjectsHome from '../components/ProjectsHome';
 import Talk from '../components/Talk';
 import Footer from '../components/Footer';
 
+
 const Index = () => (
   <Container>
-    <HeaderHome id ="header" />
+    <HeaderHome id="headerhome" />
     <WhoIs id="whois" />
     <BoxAbout id="about" />
     <Skills id="skills" />
     <ProjectsHome id="projectshome" />
     <Talk id="talk" />
     <Footer id="footer" />
-
   </Container>
 );
 

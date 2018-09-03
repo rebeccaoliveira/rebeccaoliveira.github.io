@@ -39,9 +39,13 @@ const Anchor = styled.a`
   &:hover, active {
     color: #867e7e;
   }
+
+  .faGithub:hover {
+      color: red;
+  }
 `
 const StyledJumbotron = styled(Jumbotron)`
-  background-color: #c0c0c01a;
+  background-color: #c0c0c057;
 `
 
 const ProjectsHome = () => (
@@ -57,7 +61,7 @@ const ProjectsHome = () => (
                 <ProjectPost>
                   <div>
                     <Card>
-                      <Anchor href="http://localhost:8000/projects">
+                      <Anchor href="http://localhost:8000/projects" target="_blank">
                         <CardImg top width="100%" src={NyanCat} alt="NyanCat"/>
                         <CardBody>
                           <CardTitle> <BodyTitle> Project #01 </BodyTitle> </CardTitle>
@@ -72,7 +76,7 @@ const ProjectsHome = () => (
                 <ProjectPost>
                   <div>
                     <Card>
-                      <Anchor href="http://localhost:8000/projects">
+                      <Anchor href="http://localhost:8000/projects" target="_blank">
                         <CardImg top width="100%" src={NyanCatMexico} alt="NyanCatMexico"/>
                         <CardBody>
                         <CardTitle> <BodyTitle> Project #02 </BodyTitle> </CardTitle>
@@ -87,7 +91,7 @@ const ProjectsHome = () => (
                   <ProjectPost>
                     <div>
                       <Card>
-                        <Anchor href="http://localhost:8000/projects">
+                        <Anchor href="http://localhost:8000/projects" target="_blank">
                           <CardImg top width="100%" src={NyanCatNinja} alt="NyanCatNinja"/>
                           <CardBody>
                           <CardTitle> <BodyTitle> Project #03 </BodyTitle> </CardTitle>
