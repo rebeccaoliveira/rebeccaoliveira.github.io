@@ -38,28 +38,15 @@ const Anchor = styled.a`
 
 const HeaderHome = (props) => {
   return (
-    <Row>
-
-      <Col xs="6" className="col align-self-center">
-        <Row className="row justify-content-start">
-          <Col xs="3" className="col align-self-center">
-            <a href="http://localhost:8000"><img width="70" height="70" src={logoReact} alt="logoReact" className="float-right" /> </a>
-          </Col>
-          <Col xs="9" className="col align-self-center">
-            <TextTitle> Rebecca Oliveira </TextTitle>
-            <TextStyle>A (non) Tech Girl on ReactJS</TextStyle>
-          </Col>
-        </Row>
+    <div>
+    <NavbarSite />
+    <Row className="justify-content-center d-xs-block d-lg-none">
+      <Col xs="12" md="6" className="text-center">
+        <TextTitle> Rebecca Oliveira </TextTitle>
+        <TextStyle>A (non) Tech Girl on ReactJS</TextStyle>
       </Col>
-
-
-        <Col xs="6" className="col align-self-center">
-          <Row className="row justify-content-end" >
-            <NavbarSite />
-          </Row>
-        </Col>
-
     </Row>
+    </div>
   );
 };
 

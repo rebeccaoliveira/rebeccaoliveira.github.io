@@ -33,8 +33,8 @@ const Anchor = styled.a`
 
 const Footer = () => (
   <Container>
-    <Row>
-      <Col xs={{ size: 8, offset: 2 }}>
+    <Row className="d-none d-md-block">
+      <Col xs="12">
         <Row className="justify-content-around">
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000"> Home  </Anchor></Col>
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/journey"> Jouney  </Anchor></Col>
@@ -43,10 +43,9 @@ const Footer = () => (
           <Col xs="2" className="text-center"><Anchor href="https://medium.com/@RebyOliveira" target="_blank"> Blog </Anchor></Col>
         </Row>
       </Col>
-      <Col xs="2"/>
     </Row>
     <Row>
-      <Col xs={{ size: 2, offset: 5 }} className="text-center">
+      <Col xs="12" className="text-center">
         <FontAwesomeIcon style={{marginTop: '30px'}} className="mx-auto d-inline" icon={faCode} size="1x" color="#61dbfb" />
         <NormalText className="cd-flex justify-content-center pt-4"> with </NormalText>
         <FontAwesomeIcon className="mx-auto d-inline" icon={faHeart} size="1x" color="#61dbfb" />

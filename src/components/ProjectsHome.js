@@ -8,11 +8,6 @@ import NyanCatMexico from "../images/nyan-cat-mexico.jpg";
 import NyanCatNinja from "../images/nyan-cat-ninja.jpg";
 
 
-const ProjectPost = styled.div`
-  min-height: 350px;
-  width:100%;
-`;
-
 const BodyTitle = styled.div`
   font-size: 16px;
   text-transform: uppercase
@@ -53,59 +48,41 @@ const ProjectsHome = () => (
     <StyledJumbotron fluid>
       <Container>
         <TextStyle>Personal Projects</TextStyle>
-        <Row>
-          <Col xs="1" />
-          <Col xs="10">
-            <Row>
-              <Col xs="4">
-                <ProjectPost>
-                  <div>
-                    <Card>
-                      <Anchor href="http://localhost:8000/projects" target="_blank">
-                        <CardImg top width="100%" src={NyanCat} alt="NyanCat"/>
-                        <CardBody>
-                          <CardTitle> <BodyTitle> Project #01 </BodyTitle> </CardTitle>
-                          <CardSubtitle> <BodyTitle>Nyan Cat </BodyTitle> </CardSubtitle>
-                        </CardBody>
-                      </Anchor>
-                    </Card>
-                  </div>
-                </ProjectPost>
-              </Col>
-              <Col xs="4">
-                <ProjectPost>
-                  <div>
-                    <Card>
-                      <Anchor href="http://localhost:8000/projects" target="_blank">
-                        <CardImg top width="100%" src={NyanCatMexico} alt="NyanCatMexico"/>
-                        <CardBody>
-                        <CardTitle> <BodyTitle> Project #02 </BodyTitle> </CardTitle>
-                        <CardSubtitle> <BodyTitle> Nyan Cat Mexico </BodyTitle> </CardSubtitle>
-                        </CardBody>
-                      </Anchor>
-                    </Card>
-                  </div>
-                </ProjectPost>
-              </Col>
-                <Col xs="4">
-                  <ProjectPost>
-                    <div>
-                      <Card>
-                        <Anchor href="http://localhost:8000/projects" target="_blank">
-                          <CardImg top width="100%" src={NyanCatNinja} alt="NyanCatNinja"/>
-                          <CardBody>
-                          <CardTitle> <BodyTitle> Project #03 </BodyTitle> </CardTitle>
-                          <CardSubtitle> <BodyTitle> Nyan Cat Ninja </BodyTitle> </CardSubtitle>
-                          </CardBody>
-                        </Anchor>
-                      </Card>
-                    </div>
-                  </ProjectPost>
-                </Col>
-            </Row>
-          </Col>
-          <Col xs="1" />
-        </Row>
+          <Row className="justify-content-center">
+            <Col xs="12" sm="10" md="8" lg="4" xl="4" className="pb-3 pr-3 pl-3 pb-lg-0">
+              <Card>
+                <Anchor href="http://localhost:8000/projects" target="_blank">
+                  <CardImg top src={NyanCat} alt="NyanCat"/>
+                  <CardBody>
+                    <CardTitle> <BodyTitle> Project #01 </BodyTitle> </CardTitle>
+                    <CardSubtitle> <BodyTitle>Nyan Cat </BodyTitle> </CardSubtitle>
+                  </CardBody>
+                </Anchor>
+              </Card>
+            </Col>
+              <Col xs="12" sm="10" md="8" lg="4" xl="4" className="pb-3 pr-3 pl-3 pb-lg-0">
+              <Card>
+                <Anchor href="http://localhost:8000/projects" target="_blank">
+                  <CardImg top  src={NyanCatMexico} alt="NyanCatMexico"/>
+                  <CardBody>
+                  <CardTitle> <BodyTitle> Project #02 </BodyTitle> </CardTitle>
+                  <CardSubtitle> <BodyTitle> Nyan Cat Mexico </BodyTitle> </CardSubtitle>
+                  </CardBody>
+                </Anchor>
+              </Card>
+            </Col>
+            <Col xs="12" sm="10" md="8" lg="4" xl="4" className="pb-3 pr-3 pl-3 pb-lg-0">
+              <Card>
+                <Anchor href="http://localhost:8000/projects" target="_blank">
+                  <CardImg top  src={NyanCatNinja} alt="NyanCatNinja"/>
+                  <CardBody>
+                  <CardTitle> <BodyTitle> Project #03 </BodyTitle> </CardTitle>
+                  <CardSubtitle> <BodyTitle> Nyan Cat Ninja </BodyTitle> </CardSubtitle>
+                  </CardBody>
+                </Anchor>
+              </Card>
+            </Col>
+          </Row>
       </Container>
     </StyledJumbotron>
     <hr />

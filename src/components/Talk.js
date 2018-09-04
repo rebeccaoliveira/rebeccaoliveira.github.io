@@ -14,12 +14,8 @@ import { faMedium } from '@fortawesome/free-brands-svg-icons/faMedium'
 const NormalText = styled.p`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 30px;
-  display: block;
   color: rgb(0, 0, 0);
-  line-height: 10px;
   text-align: center;
-  vertical-align: baseline;
-  word-wrap: break-word;
   padding: 0px 0px 30px 0px;
 `
 

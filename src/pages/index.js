@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 
 
 const Index = () => (
-  <Container>
+  <Container className="fluid">
     <HeaderHome id="headerhome" />
     <WhoIs id="whois" />
     <BoxAbout id="about" />

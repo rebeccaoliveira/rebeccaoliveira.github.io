@@ -137,8 +137,8 @@ const ProjectPage = () => (
         <TextStyle>My Projects</TextStyle>
       </Col>
     </Row>
-    <Row>
-      <Col xs="4">
+    <Row className="justify-content-center">
+      <Col xs="12" sm="9" md="6" lg="4" xl="4">
         <SniRoot>
           <SniImage width="100%" src={NyanCat} alt="NyanCat" />
           <SniFigcap>
@@ -148,7 +148,7 @@ const ProjectPage = () => (
         </SniRoot>
       </Col>
 
-      <Col xs="4">
+      <Col xs="12" sm="9" md="6" lg="4" xl="4">
         <SniRoot>
           <SniImage width="100%" src={NyanCatMexico} alt="NyanCatMexico" />
           <SniFigcap>
@@ -158,7 +158,7 @@ const ProjectPage = () => (
         </SniRoot>
       </Col>
 
-      <Col xs="4">
+      <Col xs="12" sm="9" md="6" lg="4" xl="4">
         <SniRoot>
           <SniImage width="100%" src={NyanCatNinja} alt="NyanCatNinja" />
           <SniFigcap>

@@ -21,12 +21,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 const TextStyle = styled.h1`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 30px;
-  display: block;
   color: rgb(0, 0, 0);
-  line-height: 10px;
   text-align: center;
-  vertical-align: baseline;
-  word-wrap: break-word;
   padding: 0px 0px 50px 0px;
 `
 const DivIcon = styled.div`
@@ -42,12 +38,9 @@ const Anchor = styled.a`
 const NormalText = styled(ModalHeader)`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 18px;
-  display: block;
   font-color: rgb(0, 0, 0);
   line-height: 10 px;
   text-align: justify;
-  vertical-align: baseline;
-  word-wrap: break-word;
 `
 const StyledJumbotron = styled(Jumbotron)`
   background-color: white;
@@ -132,11 +125,10 @@ class Skills extends React.Component {
     <StyledJumbotron fluid>
       <Container>
       <TextStyle id="tools">Programming Languages & Tools</TextStyle>
-      <Row>
-        <Col xs="1" />
-        <Col xs="10">
+      <Row className="justify-content-center">
+        <Col xs="12" md="8" sm="12" lg="10" xl="10">
           <Row>
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3" className="pb-5 pb-lg-0">
               <Anchor href="#">
                 <FontAwesomeIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"onClick={this.toggle1}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
@@ -151,7 +143,7 @@ class Skills extends React.Component {
                 </Modal>
             </Col>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
                 <FontAwesomeIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"onClick={this.toggle2}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
@@ -166,7 +158,7 @@ class Skills extends React.Component {
                 </Modal>
             </Col>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
                 <FontAwesomeIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey" onClick={this.toggle3}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
@@ -181,7 +173,7 @@ class Skills extends React.Component {
                 </Modal>
             </Col>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
                 <FontAwesomeIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"onClick={this.toggle4}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
@@ -197,17 +189,16 @@ class Skills extends React.Component {
             </Col>
           </Row>
         </Col>
-        <Col xs="1" />
       </Row>
       <DivIcon/>
-      <Row>
+      <Row className="justify-content-center">
         <Col xs="1" />
-        <Col xs="10">
+        <Col s="12" md="8" sm="12" lg="10" xl="10">
           <Row>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3" className="pb-5 pb-lg-0">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faNode} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontAwesomeIcon className="mx-auto d-block p-2" icon={faNode} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal5} toggle={this.toggle5} className={this.props.className}>
                   <ModalHeader toggle={this.toggle5}>Node JS</ModalHeader>
@@ -220,9 +211,9 @@ class Skills extends React.Component {
                 </Modal>
             </Col>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faNpm} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontAwesomeIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal6} toggle={this.toggle6} className={this.props.className}>
                   <ModalHeader toggle={this.toggle6}>NPM</ModalHeader>
@@ -235,7 +226,7 @@ class Skills extends React.Component {
                 </Modal>
             </Col>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
                 <FontAwesomeIcon className="mx-auto d-block" icon={faGit} size="5x" color="grey"onClick={this.toggle7}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
@@ -250,7 +241,7 @@ class Skills extends React.Component {
                 </Modal>
             </Col>
 
-            <Col xs="3">
+            <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
                 <FontAwesomeIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"onClick={this.toggle8}>{this.props.buttonLabel}</FontAwesomeIcon>
               </Anchor>
