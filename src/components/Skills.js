@@ -142,7 +142,14 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal1} toggle={this.toggle1} className={this.props.className}>
                   <NormalText toggle={this.toggle1}>HTML</NormalText>
                   <ModalBody>
-                    bla bla bla nla
+                    <p>
+                      Level: Advanced
+                      <p>As a simple Hyper Text Markup Language, was funny and smooth my learning </p>
+                      <ul>
+                        <li> To create easily a structure of web pages using markup. </li>
+                        <li> Completly understanding about tags, elements, attributes, etc.</li>
+                      </ul>
+                    </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle1}>Close</Button>
@@ -158,7 +165,15 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal2} toggle={this.toggle2} className={this.props.className}>
                   <ModalHeader toggle={this.toggle2}>CSS</ModalHeader>
                   <ModalBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Level: Advanced
+                      <p>During a time I felt some difficulties to understand how CSS works, but now is very clear </p>
+                      <ul>
+                        <li> To create a CSS file with styles to use in a HTML page. </li>
+                        <li> To use Bootstrap in projects. </li>
+                        <li> I pratice a lot how to use CSS through Styled Components. 💅 </li>
+                      </ul>
+                    </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle2}>Close</Button>
@@ -173,7 +188,14 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal3} toggle={this.toggle3} className={this.props.className}>
                   <ModalHeader toggle={this.toggle3}>Java Script</ModalHeader>
                   <ModalBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Level: Medium - in training
+                      <p>I studied things about JS as funtions, arrays and algorithm, but I am still building my knowledge </p>
+                      <ul>
+                        <li> All knowledge that I aquire until here was praticing through React. </li>
+                        <li> Using ES6 by Styled Components. </li>
+                      </ul>
+                    </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle3}>Close</Button>
@@ -188,7 +210,16 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal4} toggle={this.toggle4} className={this.props.className}>
                   <ModalHeader toggle={this.toggle4}>React</ModalHeader>
                   <ModalBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Level: Medium - in training
+                      <p>I spend most of my time focus on to learn React</p>
+                      <ul>
+                        <li> Understanding the structure of React, with Components, Class, Funtions. </li>
+                        <li> I feel completly confortable with Styled Components - My website was build using this library. </li>
+                        <li> To build things using Reactstrap, Material UI or another package.</li>
+                      </ul>
+                      <p>Obs.: I had some difficulties to create something from zero, but I understand the structureand I know to reuse some ready component. </p>
+                    </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle4}>Close</Button>
@@ -211,7 +242,13 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal5} toggle={this.toggle5} className={this.props.className}>
                   <ModalHeader toggle={this.toggle5}>Node JS</ModalHeader>
                   <ModalBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <p>
+                    Level: Basic - in training
+                    <p>I use this package in my training projects and I have a few idea how it works, but I am a begginner with Node JS  </p>
+                    <ul>
+                      <li>   </li>
+                    </ul>
+                  </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle5}>Close</Button>
@@ -226,7 +263,16 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal6} toggle={this.toggle6} className={this.props.className}>
                   <ModalHeader toggle={this.toggle6}>NPM</ModalHeader>
                   <ModalBody>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Level: Medium - in training
+                      <p>I know how to use and how to publish a package on NPM.</p>
+                      <ul>
+                        <li> Published one package on NPM. </li>
+                        <li> Create all way to publish a package, using terminal. </li>
+                        <li> Install package through terminal.</li>
+                      </ul>
+                      <p>Obs.: Sometimes I use Yarn, wiht no difficulties. </p>
+                    </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle6}>Close</Button>
