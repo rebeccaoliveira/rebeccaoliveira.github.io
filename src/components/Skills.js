@@ -25,14 +25,14 @@ const TextStyle = styled.h1`
   text-align: center;
   padding: 0px 0px 50px 0px;
 `
+
 const DivIcon = styled.div`
-  padding: 5px 0px 50px 0px;
+  padding: 20px 0px 50px 0px;
 `
+
 const Anchor = styled.a`
   color: #867e7e;
 
-  &:hover, active {
-    color: black;
   }
 `
 const NormalText = styled(ModalHeader)`
@@ -44,6 +44,13 @@ const NormalText = styled(ModalHeader)`
 `
 const StyledJumbotron = styled(Jumbotron)`
   background-color: white;
+`
+const FontIcon = styled(FontAwesomeIcon)`
+  color: #867e7e;
+
+  &:hover {
+    color: black;
+  }
 `
 
 class Skills extends React.Component {
@@ -130,7 +137,7 @@ class Skills extends React.Component {
           <Row>
             <Col xs="6" sm="6" md="3" lg="3" xl="3" className="pb-5 pb-lg-0">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"onClick={this.toggle1}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"onClick={this.toggle1}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal1} toggle={this.toggle1} className={this.props.className}>
                   <NormalText toggle={this.toggle1}>HTML</NormalText>
@@ -141,11 +148,12 @@ class Skills extends React.Component {
                     <Button color="secondary" onClick={this.toggle1}>Close</Button>
                   </ModalFooter>
                 </Modal>
+
             </Col>
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"onClick={this.toggle2}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"onClick={this.toggle2}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal2} toggle={this.toggle2} className={this.props.className}>
                   <ModalHeader toggle={this.toggle2}>CSS</ModalHeader>
@@ -160,7 +168,7 @@ class Skills extends React.Component {
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey" onClick={this.toggle3}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey" onClick={this.toggle3}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal3} toggle={this.toggle3} className={this.props.className}>
                   <ModalHeader toggle={this.toggle3}>Java Script</ModalHeader>
@@ -175,7 +183,7 @@ class Skills extends React.Component {
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"onClick={this.toggle4}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"onClick={this.toggle4}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal4} toggle={this.toggle4} className={this.props.className}>
                   <ModalHeader toggle={this.toggle4}>React</ModalHeader>
@@ -198,7 +206,7 @@ class Skills extends React.Component {
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3" className="pb-5 pb-lg-0">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block p-2" icon={faNode} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block p-2" icon={faNode} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal5} toggle={this.toggle5} className={this.props.className}>
                   <ModalHeader toggle={this.toggle5}>Node JS</ModalHeader>
@@ -213,7 +221,7 @@ class Skills extends React.Component {
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal6} toggle={this.toggle6} className={this.props.className}>
                   <ModalHeader toggle={this.toggle6}>NPM</ModalHeader>
@@ -228,7 +236,7 @@ class Skills extends React.Component {
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faGit} size="5x" color="grey"onClick={this.toggle7}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block" icon={faGit} size="5x" color="grey"onClick={this.toggle7}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal7} toggle={this.toggle7} className={this.props.className}>
                   <ModalHeader toggle={this.toggle7}>Git</ModalHeader>
@@ -243,7 +251,7 @@ class Skills extends React.Component {
 
             <Col xs="6" sm="6" md="3" lg="3" xl="3">
               <Anchor href="#">
-                <FontAwesomeIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"onClick={this.toggle8}>{this.props.buttonLabel}</FontAwesomeIcon>
+                <FontIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"onClick={this.toggle8}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal8} toggle={this.toggle8} className={this.props.className}>
                   <ModalHeader toggle={this.toggle8}>Github</ModalHeader>

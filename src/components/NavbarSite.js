@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'gatsby-link'
 import {
   Collapse, Navbar, NavbarToggler,
   NavbarBrand, Nav, NavItem,
@@ -30,6 +31,18 @@ const TextStyle = styled.p`
   color: #867e7e;
 `
 
+const HomeLink = () => (
+  <Link to="/">
+    <img width="70" height="70" src={logoReact} alt="logoReact" className="mx-auto d-block" />
+  </Link>
+)
+
+const PageLink = ({url, text}) => (
+  <Link to={url} className="nav-link">
+    {text}
+  </Link>
+)
+
 class NavbarSite extends React.Component {
   constructor(props) {
     super(props);
@@ -49,9 +62,7 @@ class NavbarSite extends React.Component {
 
       <div>
         <Navbar light expand="lg">
-          <NavbarBrand>
-            <a href="http://localhost:8000"><img width="70" height="70" src={logoReact} alt="logoReact" className="mx-auto d-block" /> </a>
-          </NavbarBrand>
+          <NavbarBrand tag={HomeLink} />
           <div className="collapse navbar-collapse d-none d-md-none d-lg-block" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
@@ -64,16 +75,16 @@ class NavbarSite extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavMenu>
-                <NavLink href="http://localhost:8000">Home</NavLink>
+                <NavLink tag={() => <PageLink url="/" text="Home" />}/>
               </NavMenu>
               <NavMenu>
-                <NavLink href="http://localhost:8000/journey">Journey</NavLink>
+                <NavLink tag={() => <PageLink url="/journey" text="Journey" />}/>
               </NavMenu>
               <NavMenu>
-                <NavLink href="http://localhost:8000/projects">Projects</NavLink>
+                <NavLink tag={() => <PageLink url="/projects" text="Projects" />}/>
               </NavMenu>
               <NavMenu>
-                <NavLink href="http://localhost:8000/contact">Contact</NavLink>
+                <NavLink tag={() => <PageLink url="/contact" text="Contact" />}/>
               </NavMenu>
               <NavMenu>
                 <NavLink href="https://medium.com/@RebyOliveira" target="_blank">Blog</NavLink>

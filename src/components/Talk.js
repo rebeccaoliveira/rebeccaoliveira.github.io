@@ -29,6 +29,13 @@ const Anchor = styled.a`
 const StyledJumbotron = styled(Jumbotron)`
   background-color: white;
 `
+const FontIcon = styled(FontAwesomeIcon)`
+  color: #867e7e;
+
+  &:hover {
+    color: black;
+  }
+`
 
 const Talk = () => (
 <div>
@@ -41,22 +48,22 @@ const Talk = () => (
             <Row>
               <Col xs="3">
                 <Anchor href="mailto:rebecca.d.oliveira@gmail.com" target="_blank">
-                  <FontAwesomeIcon className="mx-auto d-inline" icon={faEnvelope} size="3x" color="grey" />
+                  <FontIcon className="mx-auto d-inline" icon={faEnvelope} size="3x" color="grey" />
                 </Anchor>
               </Col>
               <Col xs="3">
                 <Anchor href="https://github.com/rebyoliveira" target="_blank">
-                  <FontAwesomeIcon className="mx-auto d-inline" icon={faGithub} size="3x" color="grey" />
+                  <FontIcon className="mx-auto d-inline" icon={faGithub} size="3x" color="grey" />
                 </Anchor>
               </Col>
               <Col xs="3">
                 <Anchor href="https://twitter.com/rebyoliveira" target="_blank">
-                  <FontAwesomeIcon className="mx-auto d-inline" icon={faTwitter} size="3x" color="grey" />
+                  <FontIcon className="mx-auto d-inline" icon={faTwitter} size="3x" color="grey" />
                 </Anchor>
               </Col>
               <Col xs="3">
                 <Anchor href="https://medium.com/@RebyOliveira" target="_blank">
-                  <FontAwesomeIcon className="mx-auto d-inline" icon={faMedium} size="3x" color="grey" />
+                  <FontIcon className="mx-auto d-inline" icon={faMedium} size="3x" color="grey" />
                 </Anchor>
               </Col>
             </Row>

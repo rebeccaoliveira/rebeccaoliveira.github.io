@@ -16,34 +16,21 @@ const TitleText = styled.p`
   font-size: 30px;
   display: block;
   color: rgb(0, 0, 0);
-  line-height: 10px;
   text-align: center;
   vertical-align: baseline;
   word-wrap: break-word;
   padding: 30px 0px 0px 0px;
 `
 
-const TextStyle = styled.p`
-  font-family: 'proxima-nova', futura-pt space;
-  font-size: 25px;
-  display: block;
-  color: rgb(0, 0, 0);
-  line-height: 10px;
-  text-align: center;
-  vertical-align: baseline;
-  word-wrap: break-word;
-  padding: 30px 0px 0px 0px;
-`
 const InfoStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
-  font-size: 18px;
+  font-size: 20px;
   display: block;
   color: #867e7e;
-  line-height: 10 px;
   text-align: center;
   vertical-align: baseline;
   word-wrap: break-word;
-  padding: 0px 0px 30px 0px;
+  padding: 10px 0px 30px 0px;
 `
 
 
@@ -57,6 +44,13 @@ const Anchor = styled.a`
 const TalkDiv = styled.div`
   padding: 0px 0px 0px 0px;
 `
+const FontIcon = styled(FontAwesomeIcon)`
+  color: #867e7e;
+
+  &:hover {
+    color: black;
+  }
+`
 
 const ContactPage = () => (
   <TalkDiv>
@@ -67,7 +61,6 @@ const ContactPage = () => (
           <Col>
             <Row>
               <Col xs="12">
-                <TextStyle> Rebecca Oliveira</TextStyle>
                 <InfoStyle> Email: rebecca.d.oliveira@gmail.com</InfoStyle>
               </Col>
             </Row>
@@ -77,22 +70,22 @@ const ContactPage = () => (
                 <Row>
                   <Col xs="3">
                     <Anchor href="mailto:rebecca.d.oliveira@gmail.com" target="_blank">
-                      <FontAwesomeIcon className="mx-auto d-inline" icon={faEnvelope} size="2x" color="grey" />
+                      <FontIcon className="mx-auto d-inline" icon={faEnvelope} size="2x" color="grey" />
                     </Anchor>
                   </Col>
                   <Col xs="3">
                     <Anchor href="https://github.com/rebyoliveira" target="_blank">
-                      <FontAwesomeIcon className="mx-auto d-inline" icon={faGithub} size="2x" color="grey" />
+                      <FontIcon className="mx-auto d-inline" icon={faGithub} size="2x" color="grey" />
                     </Anchor>
                   </Col>
                   <Col xs="3">
                     <Anchor href="https://twitter.com/rebyoliveira" target="_blank">
-                      <FontAwesomeIcon className="mx-auto d-inline" icon={faTwitter} size="2x" color="grey" />
+                      <FontIcon className="mx-auto d-inline" icon={faTwitter} size="2x" color="grey" />
                     </Anchor>
                   </Col>
                   <Col xs="3">
                     <Anchor href="https://medium.com/@RebyOliveira" target="_blank">
-                      <FontAwesomeIcon className="mx-auto d-inline" icon={faMedium} size="2x" color="grey" />
+                      <FontIcon className="mx-auto d-inline" icon={faMedium} size="2x" color="grey" />
                     </Anchor>
                   </Col>
                 </Row>

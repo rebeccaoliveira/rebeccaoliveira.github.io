@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'gatsby-link'
 import { Container, Row, Col } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab, fas } from '@fortawesome/free-brands-svg-icons'
@@ -29,15 +30,19 @@ const Anchor = styled.a`
     text-decoration: underline;
   }
 `
-
+const PageLink = ({url, text}) => (
+  <Link to={url} className="nav-link">
+    {text}
+  </Link>
+)
 
 const Footer = () => (
   <Container>
     <Row className="d-none d-md-block">
       <Col xs="12">
         <Row className="justify-content-around">
-          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000"> Home  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/journey"> Jouney  </Anchor></Col>
+          <Col xs="2" className="text-center"><PageLink tag={() => <PageLink url="/" text="Home" />}> Jouney  </PageLink></Col>
+          <Col xs="2" className="text-center"><PageLink tag={() => <PageLink url="/journey" text="Home" />}></PageLink></Col>
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/projects"> Projects  </Anchor></Col>
           <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/contact"> Contact  </Anchor></Col>
           <Col xs="2" className="text-center"><Anchor href="https://medium.com/@RebyOliveira" target="_blank"> Blog </Anchor></Col>
