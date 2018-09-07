@@ -22,7 +22,24 @@ const NormalText = styled.p`
   margin-bottom: 50px;
 `;
 
-const Anchor = styled.a`
+// 1. Chamamos o Anchor
+// <Anchor url="/" text="Home" />
+//
+// 2. Anchor, aplica o css (gera className) e chama o stilizado (PageLink) passando tudo como props
+// <PageLink url="/" text="Home" className="sc-dVhcbM bcVPig" />
+//
+// 3. PageLink render()
+// <Link to={url} className={className}>
+//   {text}
+// </Link>
+
+const PageLink = ({url, text, className}) => (
+  <Link to={url} className={className}>
+    {text}
+  </Link>
+)
+
+const Anchor = styled(PageLink)`
   color: black;
 
   &:hover, active {
@@ -30,22 +47,26 @@ const Anchor = styled.a`
     text-decoration: underline;
   }
 `
-const PageLink = ({url, text}) => (
-  <Link to={url} className="nav-link">
-    {text}
-  </Link>
-)
+
+const AnchorTag = styled.a`
+  color: black;
+
+  &:hover, active {
+    color: #867e7e;
+    text-decoration: underline;
+  }
+`
 
 const Footer = () => (
   <Container>
     <Row className="d-none d-md-block">
       <Col xs="12">
         <Row className="justify-content-around">
-          <Col xs="2" className="text-center"><PageLink tag={() => <PageLink url="/" text="Home" />}> Jouney  </PageLink></Col>
-          <Col xs="2" className="text-center"><PageLink tag={() => <PageLink url="/journey" text="Home" />}></PageLink></Col>
-          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/projects"> Projects  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="http://localhost:8000/contact"> Contact  </Anchor></Col>
-          <Col xs="2" className="text-center"><Anchor href="https://medium.com/@RebyOliveira" target="_blank"> Blog </Anchor></Col>
+          <Col xs="2" className="text-center"><Anchor url="/" text="Home" /></Col>
+          <Col xs="2" className="text-center"><Anchor url="/journey" text="Home" /></Col>
+          <Col xs="2" className="text-center"><Anchor url="/projects" text="Projects" /></Col>
+          <Col xs="2" className="text-center"><Anchor url="/contact" text="Contact" /></Col>
+          <Col xs="2" className="text-center"><AnchorTag href="https://medium.com/@RebyOliveira" target="_blank">Blog</AnchorTag></Col>
         </Row>
       </Col>
     </Row>

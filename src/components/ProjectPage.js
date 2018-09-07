@@ -21,7 +21,7 @@ const SniRoot = styled.figure`
   position: relative;
   text-align: center;
   width: 100%;
-  max-height: 240px;
+  max-height: 220px;
 
   & * {
     -webkit-box-sizing: border-box;

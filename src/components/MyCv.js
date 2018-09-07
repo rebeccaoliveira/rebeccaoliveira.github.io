@@ -72,7 +72,7 @@ const Timeline = () =>(
         >
           <h3 className="vertical-timeline-element-title">First Contact with Code</h3>
           <p>
-          I am a creative person, and I always like to create something using my mind together with my heart. After a sabbatical period,
+          I always like to create something using my mind together with my heart. After a sabbatical period,
           I started to look for different programming languages, and I felt that Frontend was my place.
           So in the end of 2017, I began to study through Code Academy,
           Free Code Camp, Udemy and Tech Blogs things about HTML, CSS, and JavaScript.
