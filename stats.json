@@ -1,0 +1,92 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-56f6900b715a37c335af.js",
+      "component---src-pages-index-js-56f6900b715a37c335af.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-responsive-js": [
+      "component---src-pages-responsive-js-597cb43ecffe3a465a7b.js",
+      "component---src-pages-responsive-js-597cb43ecffe3a465a7b.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-16a026e21eaf7ec9f703.js",
+      "component---src-pages-contact-js-16a026e21eaf7ec9f703.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-37b1d74f5ae4d412a416.js",
+      "component---src-layouts-index-js-37b1d74f5ae4d412a416.js.map"
+    ],
+    "path---modal": [
+      "path---modal-a0e39f21c11f6a62c5ab.js",
+      "path---modal-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---journey": [
+      "path---journey-a0e39f21c11f6a62c5ab.js",
+      "path---journey-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "component---src-pages-journey-js": [
+      "component---src-pages-journey-js-2cbbfc908ff62abee5fe.js",
+      "component---src-pages-journey-js-2cbbfc908ff62abee5fe.js.map"
+    ],
+    "commons": [
+      "commons-02453b3dc13238fdcf7a.js",
+      "build-js-styles.css",
+      "commons-02453b3dc13238fdcf7a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-modal-js": [
+      "component---src-pages-modal-js-2f1d52c0f3ec1e393ce4.js",
+      "component---src-pages-modal-js-2f1d52c0f3ec1e393ce4.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---responsive": [
+      "path---responsive-a0e39f21c11f6a62c5ab.js",
+      "path---responsive-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-f02c3e36773920073801.js",
+      "component---src-pages-projects-js-f02c3e36773920073801.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "app": [
+      "app-c1c34b0fb3a199df249c.js",
+      "build-js-styles.css",
+      "app-c1c34b0fb3a199df249c.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
