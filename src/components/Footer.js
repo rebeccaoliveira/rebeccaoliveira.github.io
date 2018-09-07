@@ -63,7 +63,7 @@ const Footer = () => (
       <Col xs="12">
         <Row className="justify-content-around">
           <Col xs="2" className="text-center"><Anchor url="/" text="Home" /></Col>
-          <Col xs="2" className="text-center"><Anchor url="/journey" text="Home" /></Col>
+          <Col xs="2" className="text-center"><Anchor url="/journey" text="Journey" /></Col>
           <Col xs="2" className="text-center"><Anchor url="/projects" text="Projects" /></Col>
           <Col xs="2" className="text-center"><Anchor url="/contact" text="Contact" /></Col>
           <Col xs="2" className="text-center"><AnchorTag href="https://medium.com/@RebyOliveira" target="_blank">Blog</AnchorTag></Col>

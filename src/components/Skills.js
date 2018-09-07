@@ -124,7 +124,7 @@ class Skills extends React.Component {
                   <NormalText toggle={this.toggle1}>HTML</NormalText>
                   <ModalBody>
                       Level: Advanced
-                      <p>As a simple Hyper Text Markup Language was funny and smooth my learning. </p>
+                      <p>As a simple Hyper Text Markup Language was funny and easy my learning. </p>
                       <ul>
                         <li> To create a structure of web pages efficiently using markup. </li>
                         <li> I have a complete understanding of tags, elements, attributes, etc.</li>
@@ -144,7 +144,7 @@ class Skills extends React.Component {
                 <Modal isOpen={this.state.modal2} toggle={this.toggle2} className={this.props.className}>
                   <ModalHeader toggle={this.toggle2}>CSS</ModalHeader>
                   <ModalBody>
-                      Level: Advanced
+                      Level: Medium - in training
                       <p>During a time I felt some difficulties to understand how CSS works, but now is very clear. </p>
                       <ul>
                         <li> To create a CSS file with styles to use in an HTML page. </li>
@@ -169,7 +169,7 @@ class Skills extends React.Component {
                       <p> The vital part of frontend developer, I&#39;ve been studying this language continuously.  </p>
                       <ul>
                         <li> My practice with JS is using through React. </li>
-                        <li> Appling ES6 by Styled Components. </li>
+                        <li> Appling CSS in JS with Styled Components. </li>
                       </ul>
                   </ModalBody>
                   <ModalFooter>
