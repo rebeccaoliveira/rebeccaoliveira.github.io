@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import { Navbar as ReactNavbar } from 'reactstrap';
+import Link from 'gatsby-link'
 
 const NameStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
@@ -43,7 +44,7 @@ const PageLink = ({url, text, className}) => (
   <Link to={url} className={className}>
     {text}
   </Link>
-)
+);
 
 const Anchor = styled(PageLink)`
   color: black;
@@ -81,7 +82,7 @@ const BoxAbout = () => (
                 <NormalText>
                 After a sabbatical period, I decided that I would like to use the internet in my favor, to learn ReactJS and work as a web developer!
                 My website title is "A (non) Tech Girl" because I wanna show that&#39;s everyone can do a shift in their career and learn something new!
-                If you want to know more about my professional life, welcome <Anchor url="/journey" text="here" />.
+                If you want to know more about my professional life, welcome <Anchor url="/journey" text="here" target="_blank" />.
                 </NormalText>
                 </Row>
 

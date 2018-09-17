@@ -214,7 +214,7 @@ class Skills extends React.Component {
                 <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontIcon>
               </Anchor>
                 <Modal isOpen={this.state.modal5} toggle={this.toggle5} className={this.props.className}>
-                  <ModalHeader toggle={this.toggle6}>NPM</ModalHeader>
+                  <ModalHeader toggle={this.toggle5}>NPM</ModalHeader>
                   <ModalBody>
                       Level: Medium - in training
                       <p>I know how to use and how to publish a package on NPM.</p>
@@ -223,7 +223,6 @@ class Skills extends React.Component {
                         <li> Add build on Travis to publish a package.</li>
                         <li> To use the terminal to test, publish or install packages.</li>
                       </ul>
-                      <p>Obs.: Sometimes I use Yarn, with no difficulties. </p>
                   </ModalBody>
                   <ModalFooter>
                     <Button color="secondary" onClick={this.toggle5}>Close</Button>
