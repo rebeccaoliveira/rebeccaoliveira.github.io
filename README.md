@@ -12,7 +12,7 @@ To create a website using tools that could help me to do something applying diff
 1. to set up a new website using [Gastby](https://www.gatsbyjs.org/).
 2. to set up the interface with already existing components.
 3. to modify some components according to what I wanted to show on screen, following the template that I drew.
-4. to use components from [Rectstrapp](https://reactstrap.github.io/), to apply [Bootstrap](https://getbootstrap.com/) together with [React](https://reactjs.org/).
+4. to use components from [Reactstrap](https://reactstrap.github.io/), to apply [Bootstrap](https://getbootstrap.com/) together with [React](https://reactjs.org/).
 5. to apply Styled-Components to create styles in all pages.  
 6. to add Material UI in my projects
 7. to save all project on [Github](https://github.com/), using command lines directly on a terminal.
@@ -42,7 +42,7 @@ To create a website using tools that could help me to do something applying diff
 
 * [React](https://reactjs.org/)
 * [Gatsby](https://www.gatsbyjs.org/)
-* [Reactstrapp](https://reactstrap.github.io/)
+* [Reactstrap](https://reactstrap.github.io/)
 * [Material UI](https://material-ui.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Styled Components](https://www.styled-components.com/)
