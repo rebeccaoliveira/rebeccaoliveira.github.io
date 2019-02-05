@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Link from 'gatsby-link'
 import {
-  Collapse, Navbar, NavbarToggler,
-  NavbarBrand, Nav, NavItem,
+  Collapse, Navbar, NavbarToggler, Nav, NavItem,
   NavLink } from 'reactstrap';
 import logoReact from "../images/logo-react-heart-blue.png";
 
@@ -24,6 +23,7 @@ const TextTitle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
   font-size: 30px;
   color: rgb(0, 0, 0);
+  
 `;
 const TextStyle = styled.p`
   font-family: 'proxima-nova', futura-pt space;
@@ -62,12 +62,10 @@ class NavbarSite extends React.Component {
 
       <div>
         <Navbar light expand="lg">
-          <NavbarBrand tag={HomeLink} />
           <div className="collapse navbar-collapse d-none d-md-none d-lg-block" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <TextTitle> Rebecca Oliveira </TextTitle>
-                <TextStyle>A (non) Tech Girl on ReactJS</TextStyle>
               </li>
             </ul>
           </div>

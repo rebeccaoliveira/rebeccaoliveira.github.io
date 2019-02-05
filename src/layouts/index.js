@@ -5,7 +5,7 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div style={{backgroundColor: '#faf8f2'}}>
     <div
       style={{
         margin: '0 auto',

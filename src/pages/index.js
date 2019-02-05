@@ -14,7 +14,7 @@ import Footer from '../components/Footer';
 
 
 const Index = () => (
-  <Container className="fluid">
+  <Container className="fluid" >
     <Helmet
       title="Rebecca Oliveira"
       meta={[
@@ -34,15 +34,4 @@ const Index = () => (
 
 export default Index;
 
-// const IndexPage = () => (
-//   <div>
-//     <Header />
-//     <Header2 />
-//     ola
-//     <Block />
-//     <Block />
-//     <Product>Produto</Product>
-//     <Product backgroundColor={'blue'}>Produto 2</Product>
-//     <img src={img1_2} />
-//   </div>
-// )
+

@@ -20,7 +20,7 @@ const TextStyle = styled.h1`
   font-size: 30px;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 0px 0px 50px 0px;
+  padding: 10px 0px 50px 0px;
 `
 
 const DivIcon = styled.div`
@@ -45,7 +45,7 @@ const FontIcon = styled(FontAwesomeIcon)`
   color: #867e7e;
 
   &:hover {
-    color: black;
+    color: #F5A9A9 ;
   }
 `
 
@@ -53,45 +53,43 @@ class Skills extends React.Component {
   render() {
     return (
   <div>
-    <StyledJumbotron fluid>
-      <Container>
-      <TextStyle id="tools">Programming Languages & Tools</TextStyle>
-      <Row className="justify-content-center">
-        <Col xs="12" md="8" sm="12" lg="10" xl="10">
-          <Row>
-            <Col xs="4" sm="4" md="4" lg="4" xl="4" className="pb-5 pb-lg-0">
-              <FontIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"onClick={this.toggle1}>{this.props.buttonLabel}</FontIcon>
-            </Col>
-            <Col xs="4" sm="4" md="4" lg="4" xl="4">
-              <FontIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"onClick={this.toggle2}>{this.props.buttonLabel}</FontIcon>
-            </Col>
-            <Col xs="4" sm="4" md="4" lg="4" xl="4">
-              <FontIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey" onClick={this.toggle3}>{this.props.buttonLabel}</FontIcon>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
-      <DivIcon/>
-      <Row className="justify-content-center">
-        <Col xs="1" />
-        <Col xs="12" md="8" sm="12" lg="10" xl="10">
-          <Row>
-            <Col xs="4" sm="4" md="4" lg="4" xl="4">
-              <FontIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"onClick={this.toggle4}>{this.props.buttonLabel}</FontIcon>
-            </Col>
-            <Col xs="4" sm="4" md="4" lg="4" xl="4">
-              <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontIcon>
-            </Col>
-            <Col xs="4" sm="4" md="4" lg="4" xl="4">
-              <FontIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontIcon>
-            </Col>
-          </Row>
-        </Col>
-        <Col xs="1" />
-      </Row>
-    </Container>
-  </StyledJumbotron>
-  <hr />
+    <Container>
+    <TextStyle id="tools">Programming Languages & Tools</TextStyle>
+    <Row className="justify-content-center">
+      <Col xs="12" md="8" sm="12" lg="10" xl="10">
+        <Row>
+          <Col xs="4" sm="4" md="4" lg="4" xl="4" className="pb-5 pb-lg-0">
+            <FontIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"onClick={this.toggle1}>{this.props.buttonLabel}</FontIcon>
+          </Col>
+          <Col xs="4" sm="4" md="4" lg="4" xl="4">
+            <FontIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"onClick={this.toggle2}>{this.props.buttonLabel}</FontIcon>
+          </Col>
+          <Col xs="4" sm="4" md="4" lg="4" xl="4">
+            <FontIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey" onClick={this.toggle3}>{this.props.buttonLabel}</FontIcon>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+    <DivIcon/>
+    <Row className="justify-content-center">
+      <Col xs="1" />
+      <Col xs="12" md="8" sm="12" lg="10" xl="10">
+        <Row>
+          <Col xs="4" sm="4" md="4" lg="4" xl="4">
+            <FontIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"onClick={this.toggle4}>{this.props.buttonLabel}</FontIcon>
+          </Col>
+          <Col xs="4" sm="4" md="4" lg="4" xl="4">
+            <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontIcon>
+          </Col>
+          <Col xs="4" sm="4" md="4" lg="4" xl="4">
+            <FontIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontIcon>
+          </Col>
+        </Row>
+      </Col>
+      <Col xs="1" />
+    </Row>
+  </Container>
+  <hr style={{backgroundColor: '#F5A9A9'}} />
 </div>
     );
   }
