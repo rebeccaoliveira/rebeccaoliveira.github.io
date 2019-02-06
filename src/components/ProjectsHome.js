@@ -29,10 +29,10 @@ const TextStyle = styled.h1`
   padding: 10px 0px 50px 0px;
 `
 const Anchor = styled.a`
-  color: black;
+  color: #F5A9A9;
 
   &:hover, active {
-    color: #867e7e;
+    color: #F5A9A9
   }
 
   .faGithub:hover {
@@ -83,6 +83,5 @@ const ProjectsHome = () => (
     <hr style={{backgroundColor: '#F5A9A9'}} />
   </div>
 );
-
 
 export default ProjectsHome;

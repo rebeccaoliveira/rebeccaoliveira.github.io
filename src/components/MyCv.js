@@ -1,10 +1,12 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import styled from 'styled-components'
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 import { injectGlobal } from 'styled-components';
+
 
 injectGlobal`
   .vertical-timeline-element-content {
@@ -13,11 +15,11 @@ injectGlobal`
   }
 
   .vertical-timeline-element--work .vertical-timeline-element-content {
-    border-top: 3px solid #61dafb;
+    border-top: 3px solid #F5A9A9;
   }
 
   .vertical-timeline-element--education .vertical-timeline-element-content {
-    border-top: 3px solid #61dafb;
+    border-top: 3px solid #F5A9A9;
   }
 
   @media only screen and (min-width: 1170px) {
@@ -27,11 +29,11 @@ injectGlobal`
   }
 
   span.vertical-timeline-element-icon {
-    box-shadow: 0 0 0 4px #60dafb30, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px #F5A9A9, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   }
 
   .vertical-timeline::before {
-    background-color: #60dafb30 !important;
+    background-color: #F5A9A9 !important;
   }
 `;
 
@@ -44,13 +46,33 @@ const NameStyle = styled.p`
   text-align: center;
   vertical-align: baseline;
   word-wrap: break-word;
-  padding: 30px 0px 0px 0px;
+  padding: 30px 0px 30px 0px;
 `
+const ButtonCv = styled(Button)`
+  font-family: 'proxima-nova', futura-pt space;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #F5A9A9;
+  border: #F5A9A9
+  word-wrap: break-word;
+
+  & :hover {
+    background-color: #867e7e;
+    border: #F5A9A9
+  }
+`
+const DivButton = styled.div `
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+`
+
 
 const Timeline = () =>(
   <div>
     <NameStyle>My journey:</NameStyle>
-      <VerticalTimeline>
+    <DivButton><ButtonCv href={'./cv.pdf'} target="_blank" alt="Currculum">Download my CV</ButtonCv></DivButton>
+      <VerticalTimeline style={{marginTop: 0}}>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018"

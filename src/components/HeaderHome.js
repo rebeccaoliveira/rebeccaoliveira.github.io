@@ -14,9 +14,6 @@ const TextTitle = styled.h1`
   display: inline;  
 `;
 
-
-
-
 const HeaderHome = (props) => {
   return (
     <div>

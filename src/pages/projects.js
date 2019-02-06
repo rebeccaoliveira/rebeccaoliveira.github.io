@@ -15,8 +15,8 @@ const Projects = () => (
     <Helmet
       title="Rebecca Oliveira - Projects"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Rebecca Oliveira projects frontend developer' },
+        { name: 'keywords', content: 'JavaScript, React, HTML, CSS' },
       ]}
     />
       <HeaderHome />

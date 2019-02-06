@@ -18,7 +18,7 @@ const Index = () => (
     <Helmet
       title="Rebecca Oliveira"
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'description', content: 'Rebecca Oliveira Frontend developer website' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />

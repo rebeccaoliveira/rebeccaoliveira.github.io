@@ -22,17 +22,6 @@ const NormalText = styled.p`
   margin-bottom: 50px;
 `;
 
-// 1. Chamamos o Anchor
-// <Anchor url="/" text="Home" />
-//
-// 2. Anchor, aplica o css (gera className) e chama o stilizado (PageLink) passando tudo como props
-// <PageLink url="/" text="Home" className="sc-dVhcbM bcVPig" />
-//
-// 3. PageLink render()
-// <Link to={url} className={className}>
-//   {text}
-// </Link>
-
 const PageLink = ({url, text, className}) => (
   <Link to={url} className={className}>
     {text}
@@ -63,7 +52,7 @@ const Footer = () => (
       <Col xs="12">
         <Row className="justify-content-around">
           <Col xs="2" className="text-center"><Anchor url="/" text="Home" /></Col>
-          <Col xs="2" className="text-center"><Anchor url="/journey" text="Journey" /></Col>
+          <Col xs="2" className="text-center"><Anchor url="/curriculum" text="Curriculum" /></Col>
           <Col xs="2" className="text-center"><Anchor url="/projects" text="Projects" /></Col>
           <Col xs="2" className="text-center"><Anchor url="/contact" text="Contact" /></Col>
           <Col xs="2" className="text-center"><AnchorTag href="https://medium.com/@RebyOliveira" target="_blank">Blog</AnchorTag></Col>
@@ -72,9 +61,9 @@ const Footer = () => (
     </Row>
     <Row>
       <Col xs="12" className="text-center">
-        <FontAwesomeIcon style={{marginTop: '30px'}} className="mx-auto d-inline" icon={faCode} size="1x" color="#61dbfb" />
+        <FontAwesomeIcon style={{marginTop: '30px'}} className="mx-auto d-inline" icon={faCode} size="1x" color="#F5A9A9" />
         <NormalText className="cd-flex justify-content-center pt-4"> with </NormalText>
-        <FontAwesomeIcon className="mx-auto d-inline" icon={faHeart} size="1x" color="#61dbfb" />
+        <FontAwesomeIcon className="mx-auto d-inline" icon={faHeart} size="1x" color="#F5A9A9" />
       </Col>
     </Row>
   </Container>

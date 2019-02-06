@@ -23,7 +23,7 @@ const Anchor = styled.a`
   color: #867e7e;
 
   &:hover, active {
-    color: black;
+    color: #F5A9A9;
   }
 `
 
@@ -31,7 +31,7 @@ const FontIcon = styled(FontAwesomeIcon)`
   color: #867e7e;
 
   &:hover {
-    color: black;
+    color: #F5A9A9;
   }
 `
 

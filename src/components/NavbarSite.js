@@ -76,7 +76,7 @@ class NavbarSite extends React.Component {
                 <NavLink tag={() => <PageLink url="/" text="Home" />}/>
               </NavMenu>
               <NavMenu>
-                <NavLink tag={() => <PageLink url="/journey" text="Journey" />}/>
+                <NavLink tag={() => <PageLink url="/curriculum" text="Curriculum" />}/>
               </NavMenu>
               <NavMenu>
                 <NavLink tag={() => <PageLink url="/projects" text="Projects" />}/>

@@ -31,7 +31,7 @@ const SniRoot = styled.figure`
   }
 
   &:after {
-    background-color: #867e7e;
+    background-color: #F5A9A9;
     height: 150%;
     bottom: -145%;
     content: '';
@@ -168,7 +168,7 @@ const ProjectPage = () => (
         </SniRoot>
       </Col>
     </Row>
-    <hr />
+    <hr style={{backgroundColor: '#F5A9A9'}} />
   </Container>
 );
 
