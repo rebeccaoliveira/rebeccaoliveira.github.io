@@ -5,44 +5,32 @@
       "path---curriculum-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-4ab5f14c4fbdb4ce1ad4.js",
-      "component---src-pages-index-js-4ab5f14c4fbdb4ce1ad4.js.map"
+      "component---src-pages-index-js-c32311b9fa124307a107.js",
+      "component---src-pages-index-js-c32311b9fa124307a107.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-responsive-js": [
-      "component---src-pages-responsive-js-597cb43ecffe3a465a7b.js",
-      "component---src-pages-responsive-js-597cb43ecffe3a465a7b.js.map"
+      "component---src-pages-responsive-js-a4c25019d6d8b28429ac.js",
+      "component---src-pages-responsive-js-a4c25019d6d8b28429ac.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-16a026e21eaf7ec9f703.js",
-      "component---src-pages-contact-js-16a026e21eaf7ec9f703.js.map"
+      "component---src-pages-contact-js-94828cc353c98173b899.js",
+      "component---src-pages-contact-js-94828cc353c98173b899.js.map"
     ],
     "path---projects": [
       "path---projects-a0e39f21c11f6a62c5ab.js",
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-curriculum-js": [
-      "component---src-pages-curriculum-js-75ea943504ca2ae4a0c0.js",
-      "component---src-pages-curriculum-js-75ea943504ca2ae4a0c0.js.map"
+      "component---src-pages-curriculum-js-e0bc9c8b7e98b69cfa40.js",
+      "component---src-pages-curriculum-js-e0bc9c8b7e98b69cfa40.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-37b1d74f5ae4d412a416.js",
-      "component---src-layouts-index-js-37b1d74f5ae4d412a416.js.map"
-    ],
-    "path---modal": [
-      "path---modal-a0e39f21c11f6a62c5ab.js",
-      "path---modal-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---journey": [
-      "path---journey-a0e39f21c11f6a62c5ab.js",
-      "path---journey-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---page-2": [
-      "path---page-2-a0e39f21c11f6a62c5ab.js",
-      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-layouts-index-js-44d008c438a3a7f3f253.js",
+      "component---src-layouts-index-js-44d008c438a3a7f3f253.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -52,19 +40,11 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
-    "component---src-pages-journey-js": [
-      "component---src-pages-journey-js-2cbbfc908ff62abee5fe.js",
-      "component---src-pages-journey-js-2cbbfc908ff62abee5fe.js.map"
-    ],
     "commons": [
-      "commons-56befc86953f76766d66.js",
+      "commons-6c2bd8bdad767e65c926.js",
       "build-js-styles.css",
-      "commons-56befc86953f76766d66.js.map",
+      "commons-6c2bd8bdad767e65c926.js.map",
       "build-js-styles.css.map"
-    ],
-    "component---src-pages-modal-js": [
-      "component---src-pages-modal-js-2f1d52c0f3ec1e393ce4.js",
-      "component---src-pages-modal-js-2f1d52c0f3ec1e393ce4.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -79,17 +59,13 @@
       "path---responsive-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-0e7df6ae05cd9ff20a6d.js",
-      "component---src-pages-projects-js-0e7df6ae05cd9ff20a6d.js.map"
-    ],
-    "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+      "component---src-pages-projects-js-56b8a1fc3ce6c9b5d39f.js",
+      "component---src-pages-projects-js-56b8a1fc3ce6c9b5d39f.js.map"
     ],
     "app": [
-      "app-364ed070206df78abc55.js",
+      "app-8d6880cee829c3b46672.js",
       "build-js-styles.css",
-      "app-364ed070206df78abc55.js.map",
+      "app-8d6880cee829c3b46672.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
