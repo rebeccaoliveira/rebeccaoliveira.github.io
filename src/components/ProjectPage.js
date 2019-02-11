@@ -144,7 +144,7 @@ const ProjectPage = () => (
           <SniFigcap>
             <SniTitle>My personal <SniSpan>Website</SniSpan></SniTitle>
           </SniFigcap>
-          <SniA href="#"></SniA>
+          <SniA href="https://github.com/rebeccaoliveira/react-snippet-component" target="_blank"></SniA>
         </SniRoot>
       </Col>
 
@@ -154,7 +154,7 @@ const ProjectPage = () => (
           <SniFigcap>
             <SniTitle>Xmail <SniSpan>A "Gmail" clone</SniSpan></SniTitle>
           </SniFigcap>
-          <SniA href="#"></SniA>
+          <SniA href="https://github.com/rebeccaoliveira/xmail" target="_blank"></SniA>
         </SniRoot>
       </Col>
 
@@ -164,7 +164,7 @@ const ProjectPage = () => (
           <SniFigcap>
             <SniTitle>Published NPM<SniSpan>Snippet Component</SniSpan></SniTitle>
           </SniFigcap>
-          <SniA href="#"></SniA>
+          <SniA href="https://github.com/rebeccaoliveira/react-snippet-component" target="_blank"></SniA>
         </SniRoot>
       </Col>
     </Row>

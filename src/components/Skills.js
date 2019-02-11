@@ -61,7 +61,7 @@ class Skills extends React.Component {
             <FontIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"></FontIcon>
           </Col>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
-            <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"o></FontIcon>
+            <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"></FontIcon>
           </Col>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
             <FontIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"></FontIcon>

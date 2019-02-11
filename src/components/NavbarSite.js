@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Link from 'gatsby-link'
 import {
   Collapse, Navbar, NavbarToggler, Nav, NavItem,
-  NavLink, NavbarBrand } from 'reactstrap';
+  NavLink } from 'reactstrap';
 import logoReact from "../images/logo-react-heart-blue.png";
 
 
@@ -24,18 +24,12 @@ const TextTitle = styled.p`
   font-size: 30px;
   color: rgb(0, 0, 0);
   
-`;
-const TextStyle = styled.p`
-  font-family: 'proxima-nova', futura-pt space;
-  font-size: 20px;
-  color: #867e7e;
 `
-
-const HomeLink = () => (
-  <Link to="/">
-    <img width="70" height="70" src={logoReact} alt="logoReact" className="mx-auto d-block" />
-  </Link>
-)
+const HomeLink = styled(Link)`
+  &:hover{
+    text-decoration: none;
+  } 
+`
 
 const PageLink = ({url, text}) => (
   <Link to={url} className="nav-link">
@@ -64,7 +58,7 @@ class NavbarSite extends React.Component {
           <div className="collapse navbar-collapse d-none d-md-none d-lg-block" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <TextTitle> Rebecca Oliveira </TextTitle>
+                <HomeLink to="/"><TextTitle> Rebecca Oliveira </TextTitle></HomeLink>
               </li>
             </ul>
           </div>

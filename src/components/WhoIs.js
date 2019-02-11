@@ -48,7 +48,7 @@ const WhoIs = () =>(
             <Col xs="12" md="8" sm="8" lg="8" xl="12" style={{marginTop: '30px'}}>
               <NameStyle lassName="mx-auto d-block">It&#39;s Me </NameStyle>
               <TitleStyle className="mx-auto d-block" style={{marginTop: '30px'}} > Frontend Developer</TitleStyle>
-              <NormalText className="mx-auto d-block"> Learning how to code, every day! </NormalText>
+              <NormalText className="mx-auto d-block"> Improving my coding skills, every day! </NormalText>
             </Col>
           </Row>
         </Col>
