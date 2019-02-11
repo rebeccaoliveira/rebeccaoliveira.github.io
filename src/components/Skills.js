@@ -1,12 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Row, Col, Jumbotron, Button, Modal,
-  ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { Navbar as ReactNavbar } from 'reactstrap';
+import { Container, Row, Col, Jumbotron,
+  ModalHeader} from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
-
 
 import { faReact } from '@fortawesome/free-brands-svg-icons/faReact'
 import { faJsSquare } from '@fortawesome/free-brands-svg-icons/faJsSquare'
@@ -27,20 +23,6 @@ const DivIcon = styled.div`
   padding: 20px 0px 50px 0px;
 `
 
-const Anchor = styled.a`
-  color: #867e7e;
-  }
-`
-const NormalText = styled(ModalHeader)`
-  font-family: 'proxima-nova', futura-pt space;
-  font-size: 18px;
-  font-color: rgb(0, 0, 0);
-  line-height: 10 px;
-  text-align: justify;
-`
-const StyledJumbotron = styled(Jumbotron)`
-  background-color: white;
-`
 const FontIcon = styled(FontAwesomeIcon)`
   color: #867e7e;
 
@@ -59,13 +41,13 @@ class Skills extends React.Component {
       <Col xs="12" md="8" sm="12" lg="10" xl="10">
         <Row>
           <Col xs="4" sm="4" md="4" lg="4" xl="4" className="pb-5 pb-lg-0">
-            <FontIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"onClick={this.toggle1}>{this.props.buttonLabel}</FontIcon>
+            <FontIcon className="mx-auto d-block" icon={faHtml5} size="5x" color="grey"></FontIcon>
           </Col>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
-            <FontIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"onClick={this.toggle2}>{this.props.buttonLabel}</FontIcon>
+            <FontIcon className="mx-auto d-block" icon={faCss3Alt} size="5x" color="grey"></FontIcon>
           </Col>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
-            <FontIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey" onClick={this.toggle3}>{this.props.buttonLabel}</FontIcon>
+            <FontIcon className="mx-auto d-block" icon={faJsSquare} size="5x" color="grey"></FontIcon>
           </Col>
         </Row>
       </Col>
@@ -76,13 +58,13 @@ class Skills extends React.Component {
       <Col xs="12" md="8" sm="12" lg="10" xl="10">
         <Row>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
-            <FontIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"onClick={this.toggle4}>{this.props.buttonLabel}</FontIcon>
+            <FontIcon className="mx-auto d-block" icon={faReact} size="5x" color="grey"></FontIcon>
           </Col>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
-            <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"onClick={this.toggle5}>{this.props.buttonLabel}</FontIcon>
+            <FontIcon className="mx-auto d-block p-2 " icon={faNpm} size="5x" color="grey"o></FontIcon>
           </Col>
           <Col xs="4" sm="4" md="4" lg="4" xl="4">
-            <FontIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"onClick={this.toggle6}>{this.props.buttonLabel}</FontIcon>
+            <FontIcon className="mx-auto d-block" icon={faGithub} size="5x" color="grey"></FontIcon>
           </Col>
         </Row>
       </Col>

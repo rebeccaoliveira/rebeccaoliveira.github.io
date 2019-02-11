@@ -5,7 +5,7 @@ import gravatarRebecca from "../images/gravatar.jpg";
 
 const Image = styled.img`
   border-radius: 50%;
-  border: 2px solid #867e7e;
+  border: 2px solid #F5A9A9;
   margin-top: 15px;
 `
 const NameStyle = styled.h1`
@@ -33,10 +33,6 @@ const NormalText = styled.p`
   color: #867e7e;
   word-wrap: break-word;
   text-align: center;
-`
-const Icon = styled.i`
-  padding-top: 20px;
-  margin: 15px;
 `
 const WhoIs = () =>(
   <div>

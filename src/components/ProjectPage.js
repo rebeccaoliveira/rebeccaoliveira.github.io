@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components'
 import { Container, Row, Col } from 'reactstrap';
 
-import NyanCat from "../images/nyan-cat.jpg";
-import NyanCatMexico from "../images/nyan-cat-mexico.jpg";
-import NyanCatNinja from "../images/nyan-cat-ninja.jpg";
+import MyWebsite from "../images/mywebsite.png";
+import Xmail from "../images/xmail.png";
+import NPM from "../images/npm.png";
 
 
 
@@ -140,9 +140,9 @@ const ProjectPage = () => (
     <Row className="justify-content-center">
       <Col xs="12" sm="9" md="6" lg="4" xl="4">
         <SniRoot>
-          <SniImage width="100%" src={NyanCat} alt="NyanCat" />
+          <SniImage width="100%" src={MyWebsite} alt="mywebsite" />
           <SniFigcap>
-            <SniTitle>Nyan <SniSpan>Cat</SniSpan></SniTitle>
+            <SniTitle>My personal <SniSpan>Website</SniSpan></SniTitle>
           </SniFigcap>
           <SniA href="#"></SniA>
         </SniRoot>
@@ -150,9 +150,9 @@ const ProjectPage = () => (
 
       <Col xs="12" sm="9" md="6" lg="4" xl="4">
         <SniRoot>
-          <SniImage width="100%" src={NyanCatMexico} alt="NyanCatMexico" />
+          <SniImage width="100%" src={Xmail} alt="xmail" />
           <SniFigcap>
-            <SniTitle>Nyan Cat <SniSpan>Mexico</SniSpan></SniTitle>
+            <SniTitle>Xmail <SniSpan>A "Gmail" clone</SniSpan></SniTitle>
           </SniFigcap>
           <SniA href="#"></SniA>
         </SniRoot>
@@ -160,9 +160,9 @@ const ProjectPage = () => (
 
       <Col xs="12" sm="9" md="6" lg="4" xl="4">
         <SniRoot>
-          <SniImage width="100%" src={NyanCatNinja} alt="NyanCatNinja" />
+          <SniImage width="100%" src={NPM} alt="npmpackage" />
           <SniFigcap>
-            <SniTitle>Nyan Cat <SniSpan>Ninja</SniSpan></SniTitle>
+            <SniTitle>Published NPM<SniSpan>Snippet Component</SniSpan></SniTitle>
           </SniFigcap>
           <SniA href="#"></SniA>
         </SniRoot>

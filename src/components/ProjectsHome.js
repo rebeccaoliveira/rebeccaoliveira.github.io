@@ -1,16 +1,18 @@
 import React from 'react';
 import styled from 'styled-components'
-import { Container, Row, Col, Jumbotron } from 'reactstrap';
-import { Card, CardImg, CardText, CardBody,
+import { Container, Row, Col, Button } from 'reactstrap';
+import { Card, CardImg, CardBody,
   CardTitle, CardSubtitle } from 'reactstrap';
+
 import MyWebsite from "../images/mywebsite.png";
 import Xmail from "../images/xmail.png";
 import NPM from "../images/npm.png";
 
+
 const CardMain = styled(Card)`
   cursor: pointer;
   &:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   }
 `;
 
@@ -43,14 +45,30 @@ const TextStyle = styled.h1`
 `
 const Anchor = styled.a`
   color: #F5A9A9;
+  text-decoration: none;
 
   &:hover, active {
     color: #F5A9A9
   }
 
-  .faGithub:hover {
-      color: red;
+`
+const ButtonProject = styled(Button)`
+  font-family: 'proxima-nova', futura-pt space;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #F5A9A9;
+  border: #F5A9A9
+  word-wrap: break-word;
+
+  & :hover {
+    background-color: #867e7e;
+    border: #F5A9A9
   }
+`
+const DivButton = styled.div `
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 `
 
 const ProjectsHome = () => (
@@ -92,6 +110,11 @@ const ProjectsHome = () => (
             </CardMain>
           </Col>
         </Row>
+        <DivButton>
+          <a href="https://github.com/rebeccaoliveira" target="_blank">
+            <ButtonProject target="_blank" alt="Projects"> All Projects</ButtonProject>
+          </a>
+        </DivButton>
     </Container>
     <hr style={{backgroundColor: '#F5A9A9'}} />
   </div>

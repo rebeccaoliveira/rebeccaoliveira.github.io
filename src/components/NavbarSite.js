@@ -64,7 +64,7 @@ class NavbarSite extends React.Component {
           <div className="collapse navbar-collapse d-none d-md-none d-lg-block" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <TextTitle tag={HomeLink}> Rebecca Oliveira </TextTitle>
+                <TextTitle> Rebecca Oliveira </TextTitle>
               </li>
             </ul>
           </div>
