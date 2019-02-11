@@ -30,12 +30,6 @@ To create a website using tools that could help me to do something applying diff
 * in general, getting comfortable with using React & JSX.
 * to save all new feature on Github
 
-## Timeline of this project
-
-* Start Date: 27. August 2018
-* End Date: 07. September 2018
-* Total time: 10 days (except weekends where I didn't "work")
-
 -----------
 
 #### References
