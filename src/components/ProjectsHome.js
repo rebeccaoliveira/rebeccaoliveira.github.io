@@ -3,19 +3,32 @@ import styled from 'styled-components'
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle } from 'reactstrap';
-import NyanCat from "../images/nyan-cat.jpg";
-import NyanCatMexico from "../images/nyan-cat-mexico.jpg";
-import NyanCatNinja from "../images/nyan-cat-ninja.jpg";
+import MyWebsite from "../images/mywebsite.png";
+import Xmail from "../images/xmail.png";
+import NPM from "../images/npm.png";
 
+const CardMain = styled(Card)`
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  }
+`;
 
 const BodyTitle = styled.div`
   font-size: 16px;
-  text-transform: uppercase
-  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 500;
   text-align: center;
   color: black;
-  font-family: 'proxima-nova', 'futura-pt space';
+  font-family: proxima-nova, "futura-pt space";;
 `;
+
+const BodySubtitle = styled.div`
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  font-family: proxima-nova, "futura-pt space";
+`
 
 const TextStyle = styled.h1`
   font-family: 'proxima-nova', futura-pt space;
@@ -46,37 +59,37 @@ const ProjectsHome = () => (
       <TextStyle>Personal Projects</TextStyle>
         <Row className="justify-content-center">
           <Col xs="12" sm="10" md="8" lg="4" xl="4" className="pb-3 pr-3 pl-3 pb-lg-0">
-            <Card>
+            <CardMain>
               <Anchor href="http://localhost:8000/projects" target="_blank">
-                <CardImg top src={NyanCat} alt="NyanCat"/>
+                <CardImg top src={MyWebsite} alt="mywebsite"/>
                 <CardBody>
-                  <CardTitle> <BodyTitle> Project #01 </BodyTitle> </CardTitle>
-                  <CardSubtitle> <BodyTitle>Nyan Cat </BodyTitle> </CardSubtitle>
+                  <CardTitle> <BodyTitle> My website  </BodyTitle> </CardTitle>
+                  <CardSubtitle><BodySubtitle>Built using Gatsby, with Styled Component and Reactstrap. </BodySubtitle></CardSubtitle>
                 </CardBody>
               </Anchor>
-            </Card>
+            </CardMain>
           </Col>
             <Col xs="12" sm="10" md="8" lg="4" xl="4" className="pb-3 pr-3 pl-3 pb-lg-0">
-            <Card>
+            <CardMain>
               <Anchor href="http://localhost:8000/projects" target="_blank">
-                <CardImg top  src={NyanCatMexico} alt="NyanCatMexico"/>
+                <CardImg top  src={Xmail} alt="xmail"/>
                 <CardBody>
-                <CardTitle> <BodyTitle> Project #02 </BodyTitle> </CardTitle>
-                <CardSubtitle> <BodyTitle> Nyan Cat Mexico </BodyTitle> </CardSubtitle>
+                <CardTitle><BodyTitle> Xmail </BodyTitle></CardTitle>
+                <CardSubtitle><BodySubtitle> What's the best way to learn React/JSS/Redux? Create a Gmail clone! </BodySubtitle></CardSubtitle>
                 </CardBody>
               </Anchor>
-            </Card>
+            </CardMain>
           </Col>
           <Col xs="12" sm="10" md="8" lg="4" xl="4" className="pb-3 pr-3 pl-3 pb-lg-0">
-            <Card>
+            <CardMain>
               <Anchor href="http://localhost:8000/projects" target="_blank">
-                <CardImg top  src={NyanCatNinja} alt="NyanCatNinja"/>
+                <CardImg top  src={NPM} alt="npmpackage"/>
                 <CardBody>
-                <CardTitle> <BodyTitle> Project #03 </BodyTitle> </CardTitle>
-                <CardSubtitle> <BodyTitle> Nyan Cat Ninja </BodyTitle> </CardSubtitle>
+                <CardTitle><BodyTitle> A package on NPM  </BodyTitle> </CardTitle>
+                <CardSubtitle><BodySubtitle> A snippet component package published on NPM, running a test with Travis. </BodySubtitle></CardSubtitle>
                 </CardBody>
               </Anchor>
-            </Card>
+            </CardMain>
           </Col>
         </Row>
     </Container>

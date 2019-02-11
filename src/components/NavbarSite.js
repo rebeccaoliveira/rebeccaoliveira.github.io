@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Link from 'gatsby-link'
 import {
   Collapse, Navbar, NavbarToggler, Nav, NavItem,
-  NavLink } from 'reactstrap';
+  NavLink, NavbarBrand } from 'reactstrap';
 import logoReact from "../images/logo-react-heart-blue.png";
 
 
@@ -59,13 +59,12 @@ class NavbarSite extends React.Component {
   }
   render() {
     return (
-
       <div>
         <Navbar light expand="lg">
           <div className="collapse navbar-collapse d-none d-md-none d-lg-block" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <TextTitle> Rebecca Oliveira </TextTitle>
+                <TextTitle tag={HomeLink}> Rebecca Oliveira </TextTitle>
               </li>
             </ul>
           </div>

@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col } from 'reactstrap';
 import gravatarRebecca from "../images/gravatar.jpg";
-import Instagram from "../images/instagram-logo.png";
-import Twitter from "../images/twitter-logo-button.png";
-import Github from "../images/github-logo.png";
 
 const Image = styled.img`
   border-radius: 50%;

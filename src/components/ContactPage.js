@@ -74,7 +74,7 @@ const ContactPage = () => (
                     </Anchor>
                   </Col>
                   <Col xs="3">
-                    <Anchor href="https://github.com/rebyoliveira" target="_blank">
+                    <Anchor href="https://github.com/rebeccaoliveira" target="_blank">
                       <FontIcon className="mx-auto d-inline" icon={faGithub} size="2x" color="grey" />
                     </Anchor>
                   </Col>
